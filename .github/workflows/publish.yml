@@ -1,9 +1,10 @@
-run: ./scripts/build-all-review.shname: Publish Quarto site
+name: Publish Quarto site
 
 on:
-  workflow_dispatch:
   push:
-    branches: [main]
+    branches:
+      - main
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -11,13 +12,19 @@ permissions:
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: quarto-dev/quarto-actions/setup@v2
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
         with:
           tinytex: true
+
       - name: Build site
         run: ./scripts/build-all-review.sh
+
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
