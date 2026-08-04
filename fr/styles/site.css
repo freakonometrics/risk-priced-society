@@ -1,0 +1,24 @@
+.book-home {
+  display: grid;
+  grid-template-columns: minmax(240px, 0.78fr) minmax(320px, 1.3fr);
+  gap: 3rem;
+  align-items: start;
+  margin-top: 1rem;
+}
+.book-cover img {
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 12px 34px rgba(0,0,0,.18);
+}
+.book-intro { padding-top: .5rem; }
+.book-intro h2 { margin-top: 0; }
+.btn { margin: .35rem .5rem .35rem 0; }
+@media (max-width: 780px) {
+  .book-home { grid-template-columns: 1fr; gap: 1.5rem; }
+  .book-cover { text-align: center; }
+  .book-cover img { max-width: 330px; }
+}
+.retrait-composite,
+.retrait-documente {
+  border-left: 4px solid #777;
+}
