@@ -44,7 +44,6 @@ book:
         - chapters/chapitre-12.md
         - chapters/chapitre-13.md
         - chapters/conclusion.md
-    - references.qmd
     - credits.qmd
     - a-propos-auteur.md
 
