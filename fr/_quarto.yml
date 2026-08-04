@@ -61,6 +61,7 @@ format:
     toc: true
     toc-depth: 2
     toc-title: "Sur cette page"
+    number-sections: false
     css:
      - styles/encadres.css
      - styles/site.css
