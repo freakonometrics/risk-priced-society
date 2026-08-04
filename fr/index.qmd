@@ -16,7 +16,7 @@ L’assurance repose sur une promesse collective : mettre en commun des ressourc
 *La société au prix du risque* examine ce que les prix, les scores et les catégories de risque font aux institutions de solidarité. Le manuscrit revient aux principes fondamentaux de l’assurance pour montrer que les débats présentés comme techniques engagent aussi des choix politiques sur ce que nous acceptons de partager.
 
 [Commencer la lecture](chapters/prologue.md){.btn .btn-primary}
-[Télécharger le PDF](la-societe-au-prix-du-risque.pdf){.btn .btn-secondary}
+[Télécharger le PDF](downloads/la-societe-au-prix-du-risque.pdf){.btn .btn-secondary}
 
 **Mise en ligne préparatoire : août 2026.** Les commentaires seront officiellement ouverts du **15 août au 15 décembre 2026**.
 :::

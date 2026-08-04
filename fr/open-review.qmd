@@ -11,7 +11,7 @@ Les annotations seront ouvertes du **15 août au 15 décembre 2026**. La version
 
 ## Commenter un passage
 
-Lorsque les commentaires seront activés, il sera possible de sélectionner une phrase ou un paragraphe et de déposer une annotation avec Hypothes.is. Un compte gratuit Hypothes.is sera nécessaire pour publier une remarque.
+Lorsque les commentaires seront activés, il sera possible de sélectionner une phrase ou un paragraphe et de déposer une annotation avec [Hypothes.is](https://web.hypothes.is/). Un compte gratuit [Hypothes.is](https://web.hypothes.is/) sera nécessaire pour publier une remarque.
 
 Les commentaires peuvent porter sur :
 
