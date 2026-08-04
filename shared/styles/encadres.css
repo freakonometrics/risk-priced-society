@@ -1,0 +1,22 @@
+.retrait-composite,
+.retrait-documente {
+  border: 1px solid #b8b8b8;
+  border-radius: 6px;
+  padding: 0.8rem 1rem;
+  margin: 1rem 0;
+  background: #f7f7f7;
+}
+.retrait-composite::before {
+  content: "Scène composite";
+  display: block;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+.retrait-documente::before {
+  content: "Cas documenté";
+  display: block;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}

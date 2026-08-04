@@ -1,0 +1,17 @@
+project:
+  type: website
+  output-dir: _site
+
+lang: en
+
+website:
+  title: "Risk-Priced Society"
+  navbar:
+    right:
+      - text: "Français"
+        href: ../fr/index.html
+
+format:
+  html:
+    theme: cosmo
+    css: ../shared/styles/site.css

@@ -1,0 +1,76 @@
+project:
+  type: book
+  output-dir: _book
+
+lang: fr-FR
+
+book:
+  title: "La société au prix du risque"
+  subtitle: "Assurance, algorithmes et climat à l’âge de la prédiction"
+  author: "Arthur Charpentier"
+  date: "2026-08-03"
+  cover-image: ../shared/images/cover-fr.png
+  site-url: "https://freakonometrics.github.io/risk-priced-society/fr/"
+  repo-url: "https://github.com/freakonometrics/risk-priced-society"
+  repo-actions: [issue]
+  page-navigation: true
+  search: true
+  downloads: [pdf]
+  navbar:
+    right:
+      - text: "Open review"
+        href: open-review.qmd
+      - text: "English"
+        href: ../en/index.html
+  chapters:
+    - index.qmd
+    - open-review.qmd
+    - part: "Le livre"
+      chapters:
+        - chapters/prologue.md
+        - chapters/introduction.md
+        - chapters/chapitre-01.md
+        - chapters/chapitre-02.md
+        - chapters/chapitre-03.md
+        - chapters/chapitre-04.md
+        - chapters/chapitre-05.md
+        - chapters/chapitre-06.md
+        - chapters/chapitre-07.md
+        - chapters/chapitre-08.md
+        - chapters/chapitre-09.md
+        - chapters/chapitre-10.md
+        - chapters/chapitre-11.md
+        - chapters/chapitre-12.md
+        - chapters/chapitre-13.md
+        - chapters/conclusion.md
+    - references.qmd
+    - credits.qmd
+    - a-propos-auteur.md
+
+bibliography: ../shared/bibliography/references-fr.bib
+csl: ../shared/bibliography/numerique-crochets.csl
+link-citations: true
+reference-section-title: "Références"
+
+filters:
+  - ../shared/filters/retraits.lua
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 2
+    toc-title: "Sur cette page"
+    css:
+      - ../shared/styles/encadres.css
+      - ../shared/styles/site.css
+  pdf:
+    pdf-engine: lualatex
+    fontsize: 14pt
+    template: ../shared/latex/template-texte-seul.tex
+    include-in-header: ../shared/latex/retraits.tex
+    toc: true
+    toc-title: "Table des matières"
+    toc-depth: 2
+    number-sections: false
+    keep-tex: true

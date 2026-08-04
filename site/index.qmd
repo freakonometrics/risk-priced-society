@@ -1,0 +1,23 @@
+---
+title: "La société au prix du risque / Risk-Priced Society"
+page-layout: full
+toc: false
+---
+
+::: {.language-landing}
+# Un livre, deux éditions
+
+## Français
+
+**La société au prix du risque**  
+*Assurance, algorithmes et climat à l’âge de la prédiction*
+
+[Lire l’édition française](fr/index.html){.btn .btn-primary}
+
+## English
+
+**Risk-Priced Society**  
+*Insurance, Algorithms and Climate in the Age of Prediction*
+
+[English edition coming soon](en/index.html){.btn .btn-secondary}
+:::

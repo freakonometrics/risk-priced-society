@@ -1,0 +1,26 @@
+---
+title: "Participer à l’open review"
+comments: false
+---
+
+Cette édition est rendue publique avant sa publication afin de recueillir des remarques sur son argumentation, sa clarté, ses exemples et ses éventuels angles morts.
+
+## Calendrier
+
+Les annotations seront ouvertes du **15 août au 15 décembre 2026**. La version actuellement en ligne peut être consultée avant l’ouverture officielle.
+
+## Commenter un passage
+
+Lorsque les commentaires seront activés, il sera possible de sélectionner une phrase ou un paragraphe et de déposer une annotation avec Hypothes.is. Un compte gratuit Hypothes.is sera nécessaire pour publier une remarque.
+
+Les commentaires peuvent porter sur :
+
+- un argument qui mérite d’être précisé ou discuté ;
+- un exemple ou une référence qui manque ;
+- une formulation peu claire ;
+- une erreur factuelle ou bibliographique ;
+- une répétition ou un problème de structure.
+
+## Esprit de la démarche
+
+Cette consultation ne constitue pas une évaluation formelle. Elle vise à améliorer le manuscrit avant une éventuelle édition publiée. Les personnes ayant apporté une contribution substantielle pourront être remerciées, avec leur accord, dans une version ultérieure.

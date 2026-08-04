@@ -1,0 +1,17 @@
+---
+title: "Crédits"
+lang: fr
+comments: false
+---
+
+## Photographie de couverture
+
+La photographie utilisée en couverture est l’œuvre de **Barry Freeman**.
+
+> *France, Aiguille du Midi, climbing*  
+> Photographie publiée sur [Pixabay](https://pixabay.com/photos/france-aigulle-du-midi-climbing-2090290/)  
+> Profil du photographe : [Barry Freeman](https://pixabay.com/users/barrf-4636419/)
+
+L’image est utilisée conformément à la [licence de contenu de Pixabay](https://pixabay.com/service/license-summary/).
+
+La mise en page de la couverture a été adaptée pour cette édition ouverte du manuscrit.

@@ -1,0 +1,11 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Risk-Priced Society"
+
+format:
+  html:
+    theme: cosmo
+    css: ../shared/styles/site.css

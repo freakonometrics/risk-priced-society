@@ -1,0 +1,21 @@
+---
+title: "Risk-Priced Society"
+subtitle: "Insurance, Algorithms and Climate in the Age of Prediction"
+lang: en
+comments: false
+page-layout: full
+---
+
+::: {.book-home}
+::: {.book-cover}
+![](../shared/images/cover-fr.png){fig-alt="Provisional cover of Risk-Priced Society"}
+:::
+
+::: {.book-intro}
+## English edition coming soon
+
+The French open-review edition is already being prepared. The English manuscript will be added here without changing the French site or its stable chapter URLs.
+
+[Lire l’édition française](../fr/index.html){.btn .btn-primary}
+:::
+:::
