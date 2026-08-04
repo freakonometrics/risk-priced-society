@@ -9,7 +9,8 @@ book:
   subtitle: "Assurance, algorithmes et climat à l’âge de la prédiction"
   author: "Arthur Charpentier"
   date: "2026-08-03"
-  cover-image: ../shared/images/cover-fr.png
+  ccover-image: images/cover-fr.png
+  cover-image-alt: "Couverture de La société au prix du risque"
   site-url: "https://freakonometrics.github.io/risk-priced-society/fr/"
   repo-url: "https://github.com/freakonometrics/risk-priced-society"
   repo-actions: [issue]
