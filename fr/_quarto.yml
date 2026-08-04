@@ -62,8 +62,8 @@ format:
     toc-depth: 2
     toc-title: "Sur cette page"
     css:
-      - ../shared/styles/encadres.css
-      - ../shared/styles/site.css
+     - styles/encadres.css
+     - styles/site.css
   pdf:
     pdf-engine: lualatex
     fontsize: 14pt

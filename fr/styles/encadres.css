@@ -1,0 +1,63 @@
+.retrait-composite,
+.retrait-documente {
+  border: 1px solid #b8b8b8;
+  border-radius: 6px;
+  padding: 0.8rem 1rem;
+  margin: 1rem 0;
+  background: #f7f7f7;
+}
+.retrait-composite::before.retrait-composite,
+.retrait-documente {
+  display: block;
+  position: relative;
+  margin: 1.75rem 0;
+  padding: 1.1rem 1.25rem 1.15rem;
+  border: 1px solid #c8c8c8;
+  border-left-width: 5px;
+  border-radius: 0.35rem;
+  background: #f7f7f7;
+}
+
+.retrait-composite {
+  border-left-color: #666;
+}
+
+.retrait-documente {
+  border-left-color: #222;
+  background: #f2f2f2;
+}
+
+.retrait-composite::before,
+.retrait-documente::before {
+  display: block;
+  margin-bottom: 0.65rem;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 0.01em;
+}
+
+.retrait-composite::before {
+  content: "Scène composite";
+}
+
+.retrait-documente::before {
+  content: "Cas documenté";
+}
+
+.retrait-composite > :last-child,
+.retrait-documente > :last-child {
+  margin-bottom: 0;
+} {
+  content: "Scène composite";
+  display: block;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+.retrait-documente::before {
+  content: "Cas documenté";
+  display: block;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
