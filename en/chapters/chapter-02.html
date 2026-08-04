@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Chapter 2 — What Makes the Pool Hold Together – Risk-Priced Society</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../chapters/chapter-03.html" rel="next">
+<link href="../chapters/chapter-01.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-343830dee7e81009abd9657442190b55.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script type="application/json" class="js-hypothesis-config">
+{
+  "theme": "clean",
+  "openSidebar": false,
+  "showHighlights": "whenSidebarOpen"
+}
+</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
+<script>
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    document.body.classList.add('hypothesis-enabled');
+  });
+</script>
+
+
+<link rel="stylesheet" href="../styles/boxes.css">
+<link rel="stylesheet" href="../styles/site.css">
+</head>
+
+<body class="nav-sidebar floating nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Risk-Priced Society</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="../open-review.html" aria-current="page"> 
+<span class="menu-text">Open review</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../fr/index.html"> 
+<span class="menu-text">Français</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+    <a href="https://github.com/freakonometrics/risk-priced-society" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/prologue.html">The book</a></li><li class="breadcrumb-item"><a href="../chapters/chapter-02.html"><span class="chapter-title">Chapter 2 — What Makes the Pool Hold Together</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Risk-Priced Society</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../open-review.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Take part in the open review</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">The book</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/prologue.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Prologue — When Risk Maps Set the Price</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction — The Price Assigned to Us</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/chapter-01.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Chapter 1 — When Those Who Bear the Risk Govern the Promise</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/chapter-02.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Chapter 2 — What Makes the Pool Hold Together</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/chapter-03.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Chapter 3 — The Fragmented Promise: A Warning from the United States</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/chapter-04.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Chapter 4 — The Insurance Promise, from Private Misfortune to a Collective Claim</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/chapter-05.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Chapter 5 — Trusting the One Who Will Pay</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/chapter-06.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Chapter 6 — Pooling, Segmenting</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/chapter-07.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Chapter 7 — What Each Side Cannot See</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/chapter-08.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Chapter 8 — The False Merit of Behaviour</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/chapter-09.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Chapter 9 — When the Score Becomes a Decision</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/chapter-10.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Chapter 10 — When Climate Enters the Contract</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/chapter-11.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Chapter 11 — The Uninsurables</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/chapter-12.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Chapter 12 — Those Who Refuse to Be Classified</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/chapter-13.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Chapter 13 — Building an Institution for the Non-Event</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/conclusion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Conclusion — Leaving No One Alone with Risk</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../credits.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Credits</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../about-author.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">About the author</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#solidarity-without-heroism" id="toc-solidarity-without-heroism" class="nav-link active" data-scroll-target="#solidarity-without-heroism">Solidarity without Heroism</a></li>
+  <li><a href="#cooperation-must-be-protected" id="toc-cooperation-must-be-protected" class="nav-link" data-scroll-target="#cooperation-must-be-protected">Cooperation Must Be Protected</a></li>
+  <li><a href="#price-changes-the-relationship" id="toc-price-changes-the-relationship" class="nav-link" data-scroll-target="#price-changes-the-relationship">Price Changes the Relationship</a></li>
+  <li><a href="#when-leaving-becomes-rational" id="toc-when-leaving-becomes-rational" class="nav-link" data-scroll-target="#when-leaving-becomes-rational">When Leaving Becomes Rational</a></li>
+  <li><a href="#bibliography" id="toc-bibliography" class="nav-link" data-scroll-target="#bibliography">References</a></li>
+  </ul>
+<div class="toc-actions"><ul class="collapse"><li><a href="https://github.com/freakonometrics/risk-priced-society/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/prologue.html">The book</a></li><li class="breadcrumb-item"><a href="../chapters/chapter-02.html"><span class="chapter-title">Chapter 2 — What Makes the Pool Hold Together</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-title">Chapter 2 — What Makes the Pool Hold Together</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>An institution can calculate with great precision what each member costs the group and still lose sight of why those with lower exposure would agree to remain with everyone else. Pooling does not depend on uncertainty alone. It also rests on rules that make contributions intelligible, prevent individual departures from dismantling common protection and distribute obligations among policyholders, companies and public authorities.</p>
+<div class="retrait-composite">
+<p>For years, the people living on a plateau and those living in a valley had been covered by the same mutual insurer. Homes on the plateau rarely flooded. In the valley, water reached basements and ground floors more often. Contributions reflected the difference, but only in part.</p>
+<p>No one described the arrangement as a transfer. Each household received its own bill, and some later reported a claim. Then a new map made it possible to estimate exposure almost address by address. A competing insurer offered a substantial reduction to households on the plateau.</p>
+<p>Several members asked their mutual to match the price. They did not say that they wanted to abandon the valley. They simply wanted to pay an amount that corresponded more closely to the risk of their own home.</p>
+<p>The board divided. Reducing contributions on the plateau could require a steep increase in the valley. Refusing the reduction might cause the least exposed members to leave, forcing those who remained to carry an even larger share of the losses.</p>
+<p>One board member asked why the people on the plateau should continue to contribute more. They might face a different risk tomorrow, another member replied. The two territories shared roads, public services and the same river, said a second. A third asked what would happen to homes in the valley if insurance withdrew. A final member argued that none of these reasons entitled the mutual to preserve a transfer that no one had clearly discussed.</p>
+<p>The map had made the difference visible. It had not chosen the common rule.</p>
+</div>
+<p>The previous chapter examined who owns the pool and who has the power to allocate its resources. That question remains important, but it is not enough. Even in a mutual owned by its members, each person may prefer an immediate reduction to a solidarity whose benefits remain uncertain. An institution does not endure simply because its members own it. It must give them reasons to keep financing a promise that may mainly benefit other people.</p>
+<p>Uncertainty provides one reason. People contribute because they do not yet know whether they will experience a fire, illness, accident or flood. This solidarity through chance makes pooling easier. It becomes less obvious when data distinguish exposures more closely and some policyholders know that they are likely to remain less costly than others <span class="citation" data-cites="cevoliniesposito2020poolprofile francois2026old">[<a href="#ref-cevoliniesposito2020poolprofile" role="doc-biblioref">1</a>, <a href="#ref-francois2026old" role="doc-biblioref">2</a>]</span>.</p>
+<p>Altruism provides another answer. Less exposed members may support more vulnerable people because they care about them. Generosity exists, especially after disasters. It is not enough to finance an institution year after year. Policyholders do not know most of the people whose claims their contributions will pay. They must be able to support common protection without feeling personal concern for every beneficiary.</p>
+<p>Anonymous blood and organ donation show that an institution can organise a relationship among strangers. Donors do not necessarily choose the recipients. Rules collect, check and distribute the resource <span class="citation" data-cites="titmuss1970gift healy2006last">[<a href="#ref-titmuss1970gift" role="doc-biblioref">3</a>, <a href="#ref-healy2006last" role="doc-biblioref">4</a>]</span>. Insurance is not a gift, because a contribution creates a possible right. Yet the arrangements share an important property. The person who suffers the loss does not have to persuade each contributor separately that they deserve help.</p>
+<p>Sociologists speak of <em>generalised exchange</em> when assistance does not return directly from the person who received it. One person contributes for another, who may later contribute for a third. Reciprocity passes through the group rather than taking place face to face between two individuals <span class="citation" data-cites="molm2007building">[<a href="#ref-molm2007building" role="doc-biblioref">5</a>]</span>. The pool turns this chain into lasting rights and obligations. It holds when members understand their contribution as financing common protection rather than as money taken from them for the benefit of strangers.</p>
+<section id="solidarity-without-heroism" class="level2">
+<h2 class="anchored" data-anchor-id="solidarity-without-heroism">Solidarity without Heroism</h2>
+<p>Cooperation means producing together a form of security that no participant could obtain alone <span class="citation" data-cites="harcourt2023cooperation roemer2019cooperate">[<a href="#ref-harcourt2023cooperation" role="doc-biblioref">6</a>, <a href="#ref-roemer2019cooperate" role="doc-biblioref">7</a>]</span>. Few households can keep enough savings to rebuild a home, replace income for a long period or pay for very costly care. A pool gives them access to a collective capacity to pay.</p>
+<p>This interdependence does not remove conflict. Someone who has never made a claim may regret the contribution after the fact. Someone who knows that their exposure is low may look for a cheaper contract. A claimant wants prompt payment, while the institution must retain enough resources for future demands. A common interest does not make every position identical.</p>
+<p>Cooperation does not require all members to bear the same cost. It requires differences to be governed by a rule that could still be defended if each person’s position changed. Someone may live on the plateau today, be in good health or hold a stable job. Tomorrow they may move, become ill or lose protection tied to employment. A rule appears less just when it convinces only those who already know that it places them on the favourable side.</p>
+<p>The legal philosopher Ronald Dworkin asked us to imagine the insurance people would choose before knowing their health, disability or future ability to earn an income. This hypothetical insurance market does not describe an actual market. It asks what protection people might reasonably choose before knowing whether they would belong to a costly group <span class="citation" data-cites="dworkin1981equality dworkin2000sovereign">[<a href="#ref-dworkin1981equality" role="doc-biblioref">8</a>, <a href="#ref-dworkin2000sovereign" role="doc-biblioref">9</a>]</span>.</p>
+<p>The thought experiment does not automatically turn protection into a premium. Nor does it replace rights. A society may have to guarantee care, a minimum income or continuity of housing even when it cannot prove that every citizen would have bought such cover. The experiment nevertheless rules out an overly simple objection. Durable solidarity does not require every contributor to expect to receive more than they pay. It can rest on a rule that each person would have had reason to accept before knowing their own trajectory.</p>
+<p>Cooperation also needs recognised positions. A person becomes a policyholder, member, contributor, claimant or creditor because an institution attaches rights and duties to that status <span class="citation" data-cites="tomasello2009cooperate hechter1987">[<a href="#ref-tomasello2009cooperate" role="doc-biblioref">10</a>, <a href="#ref-hechter1987" role="doc-biblioref">11</a>]</span>. They no longer ask strangers for relief. They demand performance of a promise financed in advance.</p>
+<p>This common status can remain abstract. Members need not share an occupation, religion or neighbourhood. They must still be able to understand the principles of sharing. Which differences alter the contribution? Which remain pooled? How are very large risks financed? What limits an abrupt reclassification?</p>
+<p>Understanding these principles does not require public disclosure of diagnoses, incomes or addresses. Transparency should concern the rules and their collective effects. An institution can show what share of contributions pays claims, operating expenses and reinsurance, which groups face the largest increases, how many contracts are not renewed and how much is invested in prevention. It can make sharing visible without presenting every beneficiary as personally indebted to the rest of the pool. Participation then depends less on an abstract appeal to commitment than on the ability to understand a decision and exercise real influence over it <span class="citation" data-cites="birchallsimmons2004">[<a href="#ref-birchallsimmons2004" role="doc-biblioref">12</a>]</span>.</p>
+<div class="retrait-documente">
+<p>In 1882, the 102 farms of Canillo, in Andorra, created a mutual fire insurer called <em>La Crema</em>. The roads through this mountainous region made outside firefighting assistance difficult. The organisation had to coordinate fire protection and compensate members whose buildings were destroyed <span class="citation" data-cites="cabralescalvoarmengoljackson2003">[<a href="#ref-cabralescalvoarmengoljackson2003" role="doc-biblioref">13</a>]</span>.</p>
+<p>The members met each year in an assembly. Each declared the value of the home, barn, stable and other buildings they wanted to protect. These amounts were recorded in several registers. When a fire occurred, compensation could not exceed the declared value. The other members financed the payment after the loss, each contributing in proportion to the value they had declared for their own property.</p>
+<p>The rule was easy to understand. Declaring a higher value increased the possible compensation, but it also increased the amount owed when a neighbour suffered a fire. Elected commissioners assessed the damage, monitored building maintenance and managed firefighting equipment. The common council then approved the payment.</p>
+<p><em>La Crema</em> was not free of conflict or strategic calculation. Members could be tempted to overstate or understate the value of their property. Its longevity nevertheless shows what a visible rule can make possible when it is connected to an assembly, local knowledge of the buildings and reciprocal obligations. The contribution did not arrive as a price produced at a distance. Members could relate it to another member’s loss and to a procedure known by the group <span class="citation" data-cites="cabralescalvoarmengoljackson2003">[<a href="#ref-cabralescalvoarmengoljackson2003" role="doc-biblioref">13</a>]</span>.</p>
+</div>
+<p>A small collective such as <em>La Crema</em> makes relationships easier to see. It is not a model that can simply be transferred to millions of policyholders. Proximity helps members know the buildings and monitor conduct. It can also intensify social surveillance, exclusion and pressure on those who depart from the group’s norms. A larger pool spreads losses more widely and reduces some of the transactions needed to share them. It also makes it harder to connect contributions to beneficiaries <span class="citation" data-cites="casschichilniskywu1996 olson1965logic ostrom1990commons">[<a href="#ref-casschichilniskywu1996" role="doc-biblioref">14</a>–<a href="#ref-ostrom1990commons" role="doc-biblioref">16</a>]</span>.</p>
+<p>Insurance must therefore connect several scales. Diagnosis, some prevention work and part of the deliberation can remain close to the people concerned. Capital, reinsurance and protection against catastrophe often require a much larger population. <em>Subsidiarity</em> refers to this search for the appropriate level of decision. It does not mean abandoning each group to its own resources. It places a decision where it can be understood and challenged, then distributes losses at a level broad enough to carry them.</p>
+</section>
+<section id="cooperation-must-be-protected" class="level2">
+<h2 class="anchored" data-anchor-id="cooperation-must-be-protected">Cooperation Must Be Protected</h2>
+<p>A willingness to cooperate does not survive on its own. It depends on what each person expects others to do and on whether the institution can prevent some actors from benefiting from the pool during favourable years, then leaving as soon as their contribution rises <span class="citation" data-cites="taylor1987possibility">[<a href="#ref-taylor1987possibility" role="doc-biblioref">17</a>]</span>.</p>
+<p>A member pays today because they expect the promise still to be financed when they need it. This confidence rests on observable practices. Are recognised claims paid without unjustified delay? Do managers explain how resources are used? Is proven fraud addressed without turning every claim into suspicion? Are rules changed with enough notice and a clear explanation?</p>
+<p>Control can protect the common fund. Verifying a declaration, requesting evidence or sanctioning demonstrated fraud prevents a person from receiving money to which they are not entitled. Sanction can also reassure members who are willing to contribute because they believe that the same obligations apply to others <span class="citation" data-cites="shinadayamagishi2007punishing">[<a href="#ref-shinadayamagishi2007punishing" role="doc-biblioref">18</a>]</span>.</p>
+<p>This discipline loses its justification when it falls only on the least powerful member. The policyholder is responsible for accurate declarations and for prevention measures genuinely within reach. The insurer is responsible for continuity of cover, solvency and fair claims handling. The owner, municipality, developer and network operator must answer for decisions that create or maintain exposure. An institution destroys the trust it claims to protect when it monitors small individual actions precisely while allowing powerful actors to shift their costs into the pool.</p>
+<p>Competition makes this protection more difficult. An insurer can attract less costly people with a lower premium. The institution left with more high risks must then increase its prices, which encourages further departures. This mechanism is called <em>adverse selection</em> when those who remain, or buy more cover, are on average more exposed than those who leave <span class="citation" data-cites="cutlerreber1998 einavfinkelsteincullen2010">[<a href="#ref-cutlerreber1998" role="doc-biblioref">19</a>, <a href="#ref-einavfinkelsteincullen2010" role="doc-biblioref">20</a>]</span>.</p>
+<p>Compulsory insurance can limit this flight by keeping a broad population in the same system. It is not enough when companies still gain from selecting the least costly members. Transfers among insurers can then direct resources towards organisations that cover more high-risk people. This mechanism, usually called <em>risk adjustment</em> or <em>risk equalisation</em>, aims to make firms compete over service, expenses and the quality of prevention rather than over their ability to avoid costly members <span class="citation" data-cites="cutlerreber1998 fagartfombaronjeleva2002 withagenkosteretal2024highrisk">[<a href="#ref-cutlerreber1998" role="doc-biblioref">19</a>, <a href="#ref-fagartfombaronjeleva2002" role="doc-biblioref">21</a>, <a href="#ref-withagenkosteretal2024highrisk" role="doc-biblioref">22</a>]</span>. European social health insurance systems have developed several forms of solidarity and equalisation to preserve a common arrangement despite the presence of several funds or insurers <span class="citation" data-cites="companje2009solidarity">[<a href="#ref-companje2009solidarity" role="doc-biblioref">23</a>]</span>.</p>
+<p>No equalisation mechanism removes every difference. A model can underestimate some needs and leave insurers with an incentive to discourage people for whom compensation is inadequate. It can also become so complex that only a small group of specialists understands its effects. The principle remains important. Freedom to choose a provider does not imply freedom to dismantle all solidarity. Several providers can operate within common rules that remove at least part of the gain from selection.</p>
+<p>Stability also requires time. Members may contribute for years without receiving a payment. Reserves were built by contributors who have since left the group. Prevention work will benefit future residents and policyholders. The pool therefore connects several generations of members. A decision confined to the current accounting year may distribute accumulated resources too quickly or reject an investment whose benefits will appear later.</p>
+</section>
+<section id="price-changes-the-relationship" class="level2">
+<h2 class="anchored" data-anchor-id="price-changes-the-relationship">Price Changes the Relationship</h2>
+<p>A premium, discount or excess does more than alter the policyholder’s budget. It also gives meaning to their relationship with the group. Incentives send messages as well as changing economic choices <span class="citation" data-cites="bowles2016moral">[<a href="#ref-bowles2016moral" role="doc-biblioref">24</a>]</span>.</p>
+<p>A discount after preventive work may recognise a genuine contribution to common security. It may encourage the installation of a backflow valve, reinforcement of a roof or safer driving. It may also suggest that each person alone owns the benefits of their prudence and that any remaining vulnerability should be borne as a personal fault.</p>
+<p>Conversely, a contribution that never recognises effort may discourage people who have paid for useful work. Cooperation does not require institutions to ignore conduct. It requires them to distinguish an accessible action that genuinely reduces risk from a social constraint merely recorded as individual behaviour. Effort can be recognised without treating the observed outcome as a complete measure of merit.</p>
+<p>Personalisation also changes how policyholders imagine the other members. Someone whom the model labels a good risk may feel wronged whenever they pay more than their expected cost. Someone who receives an increase may be presented as the beneficiary of a favour granted by everyone else. Relations of solidarity then become hidden subsidies that ought to be removed <span class="citation" data-cites="fourcadehealy2024 krippnerhirschman2022person">[<a href="#ref-fourcadehealy2024" role="doc-biblioref">25</a>, <a href="#ref-krippnerhirschman2022person" role="doc-biblioref">26</a>]</span>.</p>
+<p>This reading forgets that insurance exists precisely to separate the present contribution from the future loss. People pay before knowing who will need the resources. The contract creates a right without requiring the claimant to obtain the personal approval of every contributor. It protects the claimant from dependence on charity.</p>
+<p>The institution can still reintroduce a test of merit through exclusions, controls and conditions of cover. The policyholder must prove that they belong to the accepted category, declared the risk correctly and followed the expected conduct. Such checks are sometimes necessary. They cease to serve the promise when every vulnerability becomes grounds for suspicion or every difficulty in preventing loss is treated as fault.</p>
+<p>A captive population requires stronger rights. When insurance is necessary to drive, borrow, work or obtain care, a formal choice among several contracts is not enough. Continuity of cover, justification of the price, minimum quality of protection and a practical route of appeal become central duties of the institution.</p>
+</section>
+<section id="when-leaving-becomes-rational" class="level2">
+<h2 class="anchored" data-anchor-id="when-leaving-becomes-rational">When Leaving Becomes Rational</h2>
+<p>The board of the plateau and valley mutual could not avoid the conflict simply by asking the model for a more accurate price. Every household on the plateau had an understandable reason to accept the cheaper offer. If they all did so, however, the valley would lose part of the contributions that still made insurance possible there.</p>
+<p>An appeal to generosity would not solve the problem. The mutual could make the transfer explicit, limit the speed of increases, reserve a common part of the premium for the largest losses and use another part to signal differences in exposure. It could also finance work in the valley so that solidarity did not merely preserve the same danger indefinitely. Each solution would create new disagreements about the amount, duration and beneficiaries of the effort.</p>
+<p>The decisive point was not to let a series of individual departures silently produce the collective rule. Competition can improve service and contain expenses. It weakens pooling when it chiefly rewards the ability to attract the least costly members <span class="citation" data-cites="fagartfombaronjeleva2002">[<a href="#ref-fagartfombaronjeleva2002" role="doc-biblioref">21</a>]</span>. The common rule must organise freedom of choice without allowing one person’s exit to remove another person’s access to essential protection.</p>
+<p>When such a rule is missing, a society may have many insurers and many contracts while leaving a growing share of loss with households. Protection then depends on employment, income, provider networks, legal status and the ability to absorb an excess. The next chapter examines this fragmentation through the American system.</p>
+
+
+</section>
+<section id="bibliography" class="level1 unnumbered">
+<h1 class="unnumbered">References</h1>
+<div id="refs" class="references csl-bib-body" role="list">
+<div id="ref-cevoliniesposito2020poolprofile" class="csl-entry" role="listitem">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">Cevolini A, Esposito E. <a href="https://doi.org/10.1177/2053951720939228">From pool to profile: Social consequences of algorithmic prediction in insurance</a>. Big Data &amp; Society. 2020;7(2):1–11. </div>
+</div>
+<div id="ref-francois2026old" class="csl-entry" role="listitem">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">François P. <a href="https://doi.org/10.1111/1468-4446.13205">The old regime (of mutualisation) and the revolution (of big data)</a>. The British Journal of Sociology. 2026;77(3):431–8. </div>
+</div>
+<div id="ref-titmuss1970gift" class="csl-entry" role="listitem">
+<div class="csl-left-margin">3. </div><div class="csl-right-inline">Titmuss RM. The gift relationship: From human blood to social policy. London: George Allen &amp; Unwin; 1970. </div>
+</div>
+<div id="ref-healy2006last" class="csl-entry" role="listitem">
+<div class="csl-left-margin">4. </div><div class="csl-right-inline">Healy K. Last best gifts: Altruism and the market for human blood and organs. Chicago: University of Chicago Press; 2006. </div>
+</div>
+<div id="ref-molm2007building" class="csl-entry" role="listitem">
+<div class="csl-left-margin">5. </div><div class="csl-right-inline">Molm LD, Collett JL, Schaefer DR. <a href="https://doi.org/10.1086/517900">Building solidarity through generalized exchange: A theory of reciprocity</a>. American Journal of Sociology. 2007;113(1):205–42. </div>
+</div>
+<div id="ref-harcourt2023cooperation" class="csl-entry" role="listitem">
+<div class="csl-left-margin">6. </div><div class="csl-right-inline">Harcourt BE. Cooperation: A political, economic, and social theory. New York: Columbia University Press; 2023. </div>
+</div>
+<div id="ref-roemer2019cooperate" class="csl-entry" role="listitem">
+<div class="csl-left-margin">7. </div><div class="csl-right-inline">Roemer JE. How we cooperate: A theory of kantian optimization. New Haven: Yale University Press; 2019. </div>
+</div>
+<div id="ref-dworkin1981equality" class="csl-entry" role="listitem">
+<div class="csl-left-margin">8. </div><div class="csl-right-inline">Dworkin R. What is equality? Part 2: Equality of resources. Philosophy &amp; Public Affairs. 1981;10(4):283–345. </div>
+</div>
+<div id="ref-dworkin2000sovereign" class="csl-entry" role="listitem">
+<div class="csl-left-margin">9. </div><div class="csl-right-inline">Dworkin R. Sovereign virtue: The theory and practice of equality. Cambridge, MA: Harvard University Press; 2000. </div>
+</div>
+<div id="ref-tomasello2009cooperate" class="csl-entry" role="listitem">
+<div class="csl-left-margin">10. </div><div class="csl-right-inline">Tomasello M. Why we cooperate. Cambridge, MA: MIT Press; 2009. </div>
+</div>
+<div id="ref-hechter1987" class="csl-entry" role="listitem">
+<div class="csl-left-margin">11. </div><div class="csl-right-inline">Hechter M. Principles of group solidarity. Berkeley: University of California Press; 1987. </div>
+</div>
+<div id="ref-birchallsimmons2004" class="csl-entry" role="listitem">
+<div class="csl-left-margin">12. </div><div class="csl-right-inline">Birchall J, Simmons R. What motivates members to participate in co-operative and mutual businesses? A theoretical model and some findings. Annals of Public and Cooperative Economics. 2004;75(3):465–95. </div>
+</div>
+<div id="ref-cabralescalvoarmengoljackson2003" class="csl-entry" role="listitem">
+<div class="csl-left-margin">13. </div><div class="csl-right-inline">Cabrales A, Calvó-Armengol A, Jackson MO. <a href="https://doi.org/10.1086/367680"><span>La Crema</span>: A case study of mutual fire insurance</a>. Journal of Political Economy. 2003;111(2):425–58. </div>
+</div>
+<div id="ref-casschichilniskywu1996" class="csl-entry" role="listitem">
+<div class="csl-left-margin">14. </div><div class="csl-right-inline">Cass D, Chichilnisky G, Wu HM. <a href="https://doi.org/10.2307/2171785">Individual risk and mutual insurance</a>. Econometrica. 1996;64(2):333–41. </div>
+</div>
+<div id="ref-olson1965logic" class="csl-entry" role="listitem">
+<div class="csl-left-margin">15. </div><div class="csl-right-inline">Olson M. The logic of collective action: Public goods and the theory of groups. Cambridge, MA: Harvard University Press; 1965. </div>
+</div>
+<div id="ref-ostrom1990commons" class="csl-entry" role="listitem">
+<div class="csl-left-margin">16. </div><div class="csl-right-inline">Ostrom E. Governing the commons: The evolution of institutions for collective action. Cambridge: Cambridge University Press; 1990. </div>
+</div>
+<div id="ref-taylor1987possibility" class="csl-entry" role="listitem">
+<div class="csl-left-margin">17. </div><div class="csl-right-inline">Taylor M. The possibility of cooperation. Cambridge: Cambridge University Press; 1987. </div>
+</div>
+<div id="ref-shinadayamagishi2007punishing" class="csl-entry" role="listitem">
+<div class="csl-left-margin">18. </div><div class="csl-right-inline">Shinada M, Yamagishi T. <a href="https://doi.org/10.1016/j.evolhumbehav.2007.04.001">Punishing free riders: Direct and indirect promotion of cooperation</a>. Evolution and Human Behavior. 2007;28(5):330–9. </div>
+</div>
+<div id="ref-cutlerreber1998" class="csl-entry" role="listitem">
+<div class="csl-left-margin">19. </div><div class="csl-right-inline">Cutler DM, Reber SJ. <a href="https://doi.org/10.1162/003355398555649">Paying for health insurance: The trade-off between competition and adverse selection</a>. Quarterly Journal of Economics. 1998;113(2):433–66. </div>
+</div>
+<div id="ref-einavfinkelsteincullen2010" class="csl-entry" role="listitem">
+<div class="csl-left-margin">20. </div><div class="csl-right-inline">Einav L, Finkelstein A, Cullen MR. <a href="https://doi.org/10.1162/qjec.2010.125.3.877">Estimating welfare in insurance markets using variation in prices</a>. Quarterly Journal of Economics. 2010;125(3):877–921. </div>
+</div>
+<div id="ref-fagartfombaronjeleva2002" class="csl-entry" role="listitem">
+<div class="csl-left-margin">21. </div><div class="csl-right-inline">Fagart MC, Fombaron N, Jeleva M. <a href="https://doi.org/10.1023/A:1020328015612">Risk mutualization and competition in insurance markets</a>. The Geneva Papers on Risk and Insurance Theory. 2002;27(2):115–41. </div>
+</div>
+<div id="ref-withagenkosteretal2024highrisk" class="csl-entry" role="listitem">
+<div class="csl-left-margin">22. </div><div class="csl-right-inline">Withagen-Koster AA, Kleef RC van, Eijkenaar F. <a href="https://doi.org/10.1186/s12913-024-10774-x">High-risk pooling for mitigating risk selection incentives in health insurance markets with sophisticated risk equalization: An application based on health survey information</a>. BMC Health Services Research. 2024;24(1):273. </div>
+</div>
+<div id="ref-companje2009solidarity" class="csl-entry" role="listitem">
+<div class="csl-left-margin">23. </div><div class="csl-right-inline">Companje KP, Hendriks RHM, Veraghtert KFE, Widdershoven BEM. Two centuries of solidarity: <span>German</span>, belgian and dutch social health care insurance 1770–2008. Amsterdam: Aksant Academic Publishers; 2009. </div>
+</div>
+<div id="ref-bowles2016moral" class="csl-entry" role="listitem">
+<div class="csl-left-margin">24. </div><div class="csl-right-inline">Bowles S. The moral economy: Why good incentives are no substitute for good citizens. New Haven: Yale University Press; 2016. </div>
+</div>
+<div id="ref-fourcadehealy2024" class="csl-entry" role="listitem">
+<div class="csl-left-margin">25. </div><div class="csl-right-inline">Fourcade M, Healy K. The ordinal society. Cambridge, MA: Harvard University Press; 2024. </div>
+</div>
+<div id="ref-krippnerhirschman2022person" class="csl-entry" role="listitem">
+<div class="csl-left-margin">26. </div><div class="csl-right-inline">Krippner GR, Hirschman D. <a href="https://doi.org/10.1007/s11186-022-09500-5">The person of the category: The pricing of risk and the politics of classification in insurance and credit</a>. Theory and Society. 2022;51(5):685–727. </div>
+</div>
+</div>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/freakonometrics\.github\.io\/risk-priced-society\/en\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../chapters/chapter-01.html" class="pagination-link" aria-label="Chapter 1 — When Those Who Bear the Risk Govern the Promise">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Chapter 1 — When Those Who Bear the Risk Govern the Promise</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../chapters/chapter-03.html" class="pagination-link" aria-label="Chapter 3 — The Fragmented Promise: A Warning from the United States">
+        <span class="nav-page-text"><span class="chapter-title">Chapter 3 — The Fragmented Promise: A Warning from the United States</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/freakonometrics/risk-priced-society/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>

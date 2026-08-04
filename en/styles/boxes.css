@@ -1,0 +1,25 @@
+.retrait-composite,
+.retrait-documente {
+  display: block;
+  position: relative;
+  margin: 1.75rem 0;
+  padding: 1.1rem 1.25rem 1.15rem;
+  border: 1px solid #c8c8c8;
+  border-left-width: 5px;
+  border-radius: 0.35rem;
+  background: #f7f7f7;
+}
+.retrait-composite { border-left-color: #666; }
+.retrait-documente { border-left-color: #222; background: #f2f2f2; }
+.retrait-composite::before,
+.retrait-documente::before {
+  display: block;
+  margin-bottom: 0.65rem;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 0.01em;
+}
+.retrait-composite::before { content: "Composite scene"; }
+.retrait-documente::before { content: "Documented case"; }
+.retrait-composite > :last-child,
+.retrait-documente > :last-child { margin-bottom: 0; }

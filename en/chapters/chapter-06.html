@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Chapter 6 — Pooling, Segmenting – Risk-Priced Society</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../chapters/chapter-07.html" rel="next">
+<link href="../chapters/chapter-05.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-343830dee7e81009abd9657442190b55.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script type="application/json" class="js-hypothesis-config">
+{
+  "theme": "clean",
+  "openSidebar": false,
+  "showHighlights": "whenSidebarOpen"
+}
+</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
+<script>
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    document.body.classList.add('hypothesis-enabled');
+  });
+</script>
+
+
+<link rel="stylesheet" href="../styles/boxes.css">
+<link rel="stylesheet" href="../styles/site.css">
+</head>
+
+<body class="nav-sidebar floating nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Risk-Priced Society</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="../open-review.html" aria-current="page"> 
+<span class="menu-text">Open review</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../fr/index.html"> 
+<span class="menu-text">Français</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+    <a href="https://github.com/freakonometrics/risk-priced-society" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/prologue.html">The book</a></li><li class="breadcrumb-item"><a href="../chapters/chapter-06.html"><span class="chapter-title">Chapter 6 — Pooling, Segmenting</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Risk-Priced Society</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../open-review.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Take part in the open review</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">The book</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/prologue.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Prologue — When Risk Maps Set the Price</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction — The Price Assigned to Us</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/chapter-01.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Chapter 1 — When Those Who Bear the Risk Govern the Promise</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/chapter-02.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Chapter 2 — What Makes the Pool Hold Together</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/chapter-03.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Chapter 3 — The Fragmented Promise: A Warning from the United States</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/chapter-04.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Chapter 4 — The Insurance Promise, from Private Misfortune to a Collective Claim</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/chapter-05.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Chapter 5 — Trusting the One Who Will Pay</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/chapter-06.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Chapter 6 — Pooling, Segmenting</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/chapter-07.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Chapter 7 — What Each Side Cannot See</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/chapter-08.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Chapter 8 — The False Merit of Behaviour</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/chapter-09.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Chapter 9 — When the Score Becomes a Decision</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/chapter-10.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Chapter 10 — When Climate Enters the Contract</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/chapter-11.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Chapter 11 — The Uninsurables</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/chapter-12.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Chapter 12 — Those Who Refuse to Be Classified</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/chapter-13.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Chapter 13 — Building an Institution for the Non-Event</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/conclusion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Conclusion — Leaving No One Alone with Risk</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../credits.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Credits</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../about-author.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">About the author</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#why-classify" id="toc-why-classify" class="nav-link active" data-scroll-target="#why-classify">Why Classify?</a></li>
+  <li><a href="#a-probability-for-one-person" id="toc-a-probability-for-one-person" class="nav-link" data-scroll-target="#a-probability-for-one-person">A Probability for One Person</a></li>
+  <li><a href="#the-table-does-not-discover-its-categories-alone" id="toc-the-table-does-not-discover-its-categories-alone" class="nav-link" data-scroll-target="#the-table-does-not-discover-its-categories-alone">The Table Does Not Discover Its Categories Alone</a></li>
+  <li><a href="#from-the-cost-of-risk-to-the-price-charged" id="toc-from-the-cost-of-risk-to-the-price-charged" class="nav-link" data-scroll-target="#from-the-cost-of-risk-to-the-price-charged">From the Cost of Risk to the Price Charged</a></li>
+  <li><a href="#three-uses-of-price" id="toc-three-uses-of-price" class="nav-link" data-scroll-target="#three-uses-of-price">Three Uses of Price</a></li>
+  <li><a href="#insuring-against-reclassification" id="toc-insuring-against-reclassification" class="nav-link" data-scroll-target="#insuring-against-reclassification">Insuring against Reclassification</a></li>
+  <li><a href="#actuarial-fairness-is-not-enough" id="toc-actuarial-fairness-is-not-enough" class="nav-link" data-scroll-target="#actuarial-fairness-is-not-enough">Actuarial Fairness Is Not Enough</a></li>
+  <li><a href="#bibliography" id="toc-bibliography" class="nav-link" data-scroll-target="#bibliography">References</a></li>
+  </ul>
+<div class="toc-actions"><ul class="collapse"><li><a href="https://github.com/freakonometrics/risk-priced-society/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/prologue.html">The book</a></li><li class="breadcrumb-item"><a href="../chapters/chapter-06.html"><span class="chapter-title">Chapter 6 — Pooling, Segmenting</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-title">Chapter 6 — Pooling, Segmenting</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>A premium distributes expected claims costs among the members of a portfolio. It does more than add up expenses. It decides which differences will alter the price and which will continue to be borne together.</p>
+<div class="retrait-documente">
+<p>In the 1950s, North American motor insurance still relied on categories that an agent could name one by one. The rating table distinguished how a vehicle was used, the distance between home and work, the place of a young driver within the household and marital status. For a time, it even mattered whether a driver under twenty-five had legal custody of a child. Farmers and members of the clergy could receive special treatment <span class="citation" data-cites="muir1957classification">[<a href="#ref-muir1957classification" role="doc-biblioref">1</a>]</span>.</p>
+<p>The table changed through successive experiments. In 1955, insurers created a class for some cars driven by a woman under twenty-five. At about the same time, parenthood ceased to be used and recognised driver training could improve the rate. Roughly a year later, the special category for young women was itself removed <span class="citation" data-cites="muir1957classification">[<a href="#ref-muir1957classification" role="doc-biblioref">1</a>]</span>. Classification advanced by adding visible boxes, then taking some of them away.</p>
+<p>In the 1970s, the scale changed. The insurer no longer classified only the driver or household. It also classified the place where they lived. In Chicago in 1976, State Farm used ZIP codes to draw the boundaries of two motor insurance rating territories. The address linked each driver to the average experience of a neighbourhood without observing how that person drove <span class="citation" data-cites="usccr1979redlining">[<a href="#ref-usccr1979redlining" role="doc-biblioref">2</a>]</span>.</p>
+<p>This territorial approach fed the controversy over insurance redlining. An administrative boundary could change the price or access to insurance while the driver and vehicle remained the same. Place of residence condensed differences in traffic, theft and claims costs. It also carried the history of housing, segregation and underinvestment. Classification became more geographically precise, but less transparent about what the address truly represented.</p>
+<p>A further step came in the 1990s with credit-based insurance scores. Fair Isaac marketed a score for homeowners insurance in 1993, then one for motor insurance in 1995. Insurers could combine numerous items from credit records to estimate the future frequency or cost of claims <span class="citation" data-cites="ftc2007credit">[<a href="#ref-ftc2007credit" role="doc-biblioref">3</a>]</span>.</p>
+<p>The policyholder was no longer placed in a class through an identifiable question about age or marital status. They received a number derived from their financial history. Late payments, debt, the age of credit accounts and recent applications for credit could affect the price of motor insurance without describing how the person drove.</p>
+<p>These scores separated some risks more effectively, but moved classification into another area of life. Illness, separation or loss of employment could damage a credit record and then raise an insurance premium. The controversy therefore concerned more than the score’s ability to predict claims. It concerned the right to turn financial hardship into an insurance characteristic <span class="citation" data-cites="ftc2007credit kiviat2019moral">[<a href="#ref-ftc2007credit" role="doc-biblioref">3</a>, <a href="#ref-kiviat2019moral" role="doc-biblioref">4</a>]</span>.</p>
+<p>Within a few decades, the table had moved from explicit family categories to territory and then to a composite score. Each stage promised better knowledge of risk. It also widened the area of life in which insurers sought reasons to differentiate prices. Progress in classification did not consist only in measuring more precisely. It also meant deciding that new parts of life should now count.</p>
+</div>
+<p>A predictive variable does not become a pricing rule by itself. Between data and premium, an institution chooses what it wants to predict, which people it regards as comparable and what consequence will follow from the observed difference <span class="citation" data-cites="desrosieres1998 krippner2024gendered">[<a href="#ref-desrosieres1998" role="doc-biblioref">5</a>, <a href="#ref-krippner2024gendered" role="doc-biblioref">6</a>]</span>. Technique can improve measurement. It does not decide what should be paid separately.</p>
+<section id="why-classify" class="level2">
+<h2 class="anchored" data-anchor-id="why-classify">Why Classify?</h2>
+<p>An insurer cannot ask exactly the same contribution for every contract. Buildings do not have the same value, policies do not cover the same losses and uses differ. Even a highly pooled price must distinguish at least the amount insured and the extent of coverage.</p>
+<p>Classification also addresses a problem of stability. Suppose the same policy is offered at the same price to people who know more about their own exposure than the insurer does. Those expecting high costs have a stronger reason to buy or keep the policy. Those who believe they are less exposed may seek a cheaper offer or leave the portfolio. This mechanism is known as adverse selection. It can lead to higher premiums, followed by more departures, until the coverage becomes difficult to maintain <span class="citation" data-cites="rothschildstiglitz1976 wilson1977">[<a href="#ref-rothschildstiglitz1976" role="doc-biblioref">7</a>, <a href="#ref-wilson1977" role="doc-biblioref">8</a>]</span>.</p>
+<p>Segmentation attempts to bring the contribution of each class closer to the cost it brings to the portfolio. It can preserve a promise that would become unstable if prices remained too far from expected losses. Solvency is part of insurance justice. An affordable contract offers no protection if the insurer cannot pay when a claim occurs.</p>
+<p>This argument deserves to be taken seriously. A uniform premium is not fair by definition. It may require a household with fewer resources to finance a large and highly exposed property. It may ask someone who drives very little to contribute as much as someone who travels long distances every day. A price difference can also recognise equipment or maintenance that genuinely reduces risk <span class="citation" data-cites="ehrlichbecker1972 shavell1979">[<a href="#ref-ehrlichbecker1972" role="doc-biblioref">9</a>, <a href="#ref-shavell1979" role="doc-biblioref">10</a>]</span>.</p>
+<p>Segmentation may also replace a crude category with information closer to the exposure. Mileage can replace sex. The condition of a building can replace the reputation of a neighbourhood. Completed work can replace a territorial average. Personalisation then carries an emancipatory promise. It may release a person from a stereotype by relying on information closer to their actual situation <span class="citation" data-cites="barrycharpentier2020personalization krippner2024gendered">[<a href="#ref-krippner2024gendered" role="doc-biblioref">6</a>, <a href="#ref-barrycharpentier2020personalization" role="doc-biblioref">11</a>]</span>.</p>
+<p>These arguments do not lead to a single correct price. Even when some distinctions are necessary, decisions remain about how far to go, which variables to retain, which differences to neutralise and how much equalisation to preserve. Classic work on insurance classification already separated predictive value, causation, the person’s control over the risk, economic necessity and social acceptability <span class="citation" data-cites="cumminsetal1983riskclassification abraham1986">[<a href="#ref-cumminsetal1983riskclassification" role="doc-biblioref">12</a>, <a href="#ref-abraham1986" role="doc-biblioref">13</a>]</span>.</p>
+<p>A difference in claims experience<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> does not settle those questions. A classification may be useful without being reliable enough to justify a large increase. It may predict correctly while relying on something the person cannot change. It may protect a portfolio while closing access to a necessary good such as housing, credit or care.</p>
+<p>Classification must also be distinguished from correlated losses. An insurer can differentiate very precisely among houses whose fires would still occur separately. A storm or flood may instead strike thousands of policies at once even when each one has been correctly priced. In the first case, the issue is how costs are distributed among policyholders. In the second, it is whether the portfolio, its reinsurance and sometimes the state can absorb a common shock <span class="citation" data-cites="beneplanc2022manuel mcneil2015quantitative">[<a href="#ref-beneplanc2022manuel" role="doc-biblioref">14</a>, <a href="#ref-mcneil2015quantitative" role="doc-biblioref">15</a>]</span>.</p>
+<p>A material limit of insurance should therefore not be confused with a decision to return a difference to the person who carries it. The first depends on the size and concentration of losses. The second depends on the pricing rule.</p>
+</section>
+<section id="a-probability-for-one-person" class="level2">
+<h2 class="anchored" data-anchor-id="a-probability-for-one-person">A Probability for One Person</h2>
+<p>Insurance estimates risk by observing groups. It does not know which driver will have an accident or which house will burn during the year. It can estimate how many claims are likely to occur in a sufficiently large population. Actuarial certainty is collective before it is individual.</p>
+<p>Saying that a policyholder has a risk of 2 per cent does not mean that a small part of the accident will happen to them. The event will occur or it will not. The number means that the model places this file near other situations in which roughly two policies out of one hundred produced the event being studied. Even when presented as individual, risk is built from the experience of other people.</p>
+<p>Every probability applied to a single case therefore assumes a reference class. Should a driver be compared with everyone of the same age, people who own the same vehicle, live in the same area, travel the same distance or have the same history? Each additional item changes the relevant group and may change the estimate. There is no unique class waiting for the data to reveal it <span class="citation" data-cites="reichenbach1971probability schauer2003profiles">[<a href="#ref-reichenbach1971probability" role="doc-biblioref">16</a>, <a href="#ref-schauer2003profiles" role="doc-biblioref">17</a>]</span>.</p>
+<p>Contemporary models make these comparisons less visible. They do not necessarily place policyholders in a small number of explicit boxes. They construct similarities from many variables. Yet when a profile becomes highly specific, the insurer does not possess a long series of observations about that person. The model must still borrow information from cases treated as comparable.</p>
+<p>Actuarial practice calls this credibility.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> Dividing a portfolio into more homogeneous groups may improve the accuracy of a price. Each division also reduces the number of observations in the group. Beyond a certain point, the class becomes too small to support a stable estimate. Pricing must then combine the experience of that class with information from a wider population <span class="citation" data-cites="cas1988ratemaking norberg1979credibility">[<a href="#ref-cas1988ratemaking" role="doc-biblioref">18</a>, <a href="#ref-norberg1979credibility" role="doc-biblioref">19</a>]</span>.</p>
+<p>Personalisation therefore contains a tension. Moving the price closer to a particular situation requires more distinctions. Estimating risk with enough stability requires many observations to be brought together. The more a model claims to treat one person as a class of their own, the more it depends on information borrowed from others.</p>
+<p>Calibration checks one part of this reasoning. When a model assigns a risk of 2 per cent to a large set of policies, about 2 per cent of them should produce the relevant claim <span class="citation" data-cites="dawid1982wellcalibrated">[<a href="#ref-dawid1982wellcalibrated" role="doc-biblioref">20</a>]</span>. This property does not show that the probability was true for each person. It shows that groups receiving similar predictions experience the event at roughly the predicted rate.</p>
+<p>A score does not uncover a risk that was waiting inside the individual. It offers a conditional estimate based on a population, a period, an objective and a set of similarities. The estimate may be useful. It must remain open to revision and should not be confused with certainty about a person’s future.</p>
+<p>This limitation clarifies the promise of individualisation. The group does not disappear. It moves into the training data, the variables and the way the model defines proximity. The price appears to belong to one person. The knowledge supporting it remains collective <span class="citation" data-cites="cevoliniesposito2020poolprofile barrycharpentier2020personalization">[<a href="#ref-barrycharpentier2020personalization" role="doc-biblioref">11</a>, <a href="#ref-cevoliniesposito2020poolprofile" role="doc-biblioref">21</a>]</span>.</p>
+</section>
+<section id="the-table-does-not-discover-its-categories-alone" class="level2">
+<h2 class="anchored" data-anchor-id="the-table-does-not-discover-its-categories-alone">The Table Does Not Discover Its Categories Alone</h2>
+<p>Many factors may be associated with a loss. Statistics do not require the insurer to retain sex rather than mileage, occupation rather than working hours, or address rather than the condition of a building. The choice depends on what the company can measure, what its systems can store, what the law permits and what the public accepts as a basis for price.</p>
+<p>Sex long had several practical advantages for insurers. It was inexpensive, stable, easy to verify and available in long historical series. It divided the population into groups large enough to retain a statistical basis while appearing to bring the price closer to each person <span class="citation" data-cites="krippner2024gendered">[<a href="#ref-krippner2024gendered" role="doc-biblioref">6</a>]</span>.</p>
+<p>A variable already embedded in forms then accumulates the data that confirm its usefulness. The pricing category becomes a reporting category and later a historical series. That history becomes a reason to keep the distinction. The insurer can present itself as merely observing a difference in its portfolio even though the portfolio was selected and priced through the same categories whose effects it now records <span class="citation" data-cites="krippner2024gendered bouk2015days">[<a href="#ref-krippner2024gendered" role="doc-biblioref">6</a>, <a href="#ref-bouk2015days" role="doc-biblioref">22</a>]</span>.</p>
+<p>The form does not always reveal all the information used. A vehicle registration number can identify the model, engine, power, weight and other technical features. A few characters entered by the applicant can therefore enrich the file considerably <span class="citation" data-cites="cnil2008siv cnil2019transparence">[<a href="#ref-cnil2008siv" role="doc-biblioref">23</a>, <a href="#ref-cnil2019transparence" role="doc-biblioref">24</a>]</span>. The information visible during a quotation does not necessarily show which variables truly determined the price.</p>
+<p>Removing an explicit category does not mean that identity has ceased to matter. Address, schedules, travel, purchases and digital habits may reconstruct socially significant characteristics. A prohibited or abandoned variable can return through a set of proxies. A proxy is an observable item used to approximate something that is not measured directly. Removing sex from a file does not ensure that a model will stop reproducing its effects from other information <span class="citation" data-cites="aaa2022correlation charpentier2026algorithmic">[<a href="#ref-aaa2022correlation" role="doc-biblioref">25</a>, <a href="#ref-charpentier2026algorithmic" role="doc-biblioref">26</a>]</span>.</p>
+<p>This problem requires two uses to be distinguished. A characteristic may be inappropriate for setting a price and still be needed to test whether the model systematically disadvantages a group. Refusing to use a characteristic in pricing does not require institutions to stop measuring the effects that it helps reveal.</p>
+<div class="retrait-documente">
+<p>In 2016, the British insurer Admiral announced a product for young drivers with no previous insurance record. The product, called <em>firstcarquote</em>, was intended to analyse part of their Facebook activity with their consent. The stated aim was to identify personality traits associated with careful driving and offer a discount of up to 15 per cent <span class="citation" data-cites="woollastonwebber2016admiral">[<a href="#ref-woollastonwebber2016admiral" role="doc-biblioref">27</a>]</span>.</p>
+<p>The proposed algorithm was not limited to photographs of cars or accounts of dangerous driving. It was meant to interpret writing style and the organisation of daily life. Short sentences, lists and precisely arranged meetings could be treated as signs of conscientiousness. Ordinary posts became answers to a pricing questionnaire that the applicant had never explicitly completed.</p>
+<p>The system was not ultimately used as planned. Shortly before its launch, Facebook concluded that using its data to determine eligibility or the financial terms of a service breached the platform’s rules. Admiral had to offer a reduced version in which the Facebook account was used only for login and identity checks <span class="citation" data-cites="ruddick2016facebook">[<a href="#ref-ruddick2016facebook" role="doc-biblioref">28</a>]</span>.</p>
+<p>The episode matters precisely because the variable did not reach the price. The data existed. The insurer claimed that they contained predictive information and some customers might have accepted their use in return for a discount. Another institution nevertheless decided that personal posts should not be converted into an insurance price.</p>
+<p>The possible correlation had not vanished. Its use had been blocked. Rules, power and judgements about legitimate institutional conduct always stand between available information and a pricing category.</p>
+</div>
+</section>
+<section id="from-the-cost-of-risk-to-the-price-charged" class="level2">
+<h2 class="anchored" data-anchor-id="from-the-cost-of-risk-to-the-price-charged">From the Cost of Risk to the Price Charged</h2>
+<p>In its strict sense, actuarial fairness requires differences in premium to reflect differences in the future costs attributed to policies. The technical premium<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> estimates expected claims and the expenses involved in managing them. It also takes account of the resources needed for the insurer to keep its promise. Professional doctrine distinguishes this estimate from the commercial and legal choices entering the final price <span class="citation" data-cites="cas1988ratemaking">[<a href="#ref-cas1988ratemaking" role="doc-biblioref">18</a>]</span>.</p>
+<p>The move from estimated cost to the price charged is not new. Insurers round rating factors, smooth changes, offer temporary discounts and observe competitors’ prices. The final amount may also reflect acquisition expenses, growth targets and the desire to retain particular customers.</p>
+<p>Modern optimisation makes this process more systematic. Demand models estimate the probability that a customer will accept a quotation, renew a policy or move to a competitor. The insurer can then select a price in pursuit of profit, volume or retention targets <span class="citation" data-cites="bugbeeetal2014priceoptimization guvenmcphail2013elasticity">[<a href="#ref-bugbeeetal2014priceoptimization" role="doc-biblioref">29</a>, <a href="#ref-guvenmcphail2013elasticity" role="doc-biblioref">30</a>]</span>.</p>
+<p>One form of this practice is known as <em>price walking</em>. The price rises over successive renewals for customers thought unlikely to compare offers or leave. Not every renewal increase follows this logic. Claims costs, exposure and coverage may genuinely have changed. Price walking means a gradual increase relative to expected cost based on the customer’s low probability of departure.</p>
+<p>The justification has then changed. Two people with similar risks and costs may pay different prices because one appears less likely to reject the offer. The distinction no longer concerns the insured risk. It concerns the customer’s position in the negotiation.</p>
+<p>Low price sensitivity may reflect trust in the company or a desire for stability. It may also result from the cost of searching, limited digital confidence, fear of interrupted cover or the absence of an alternative. What looks like a high willingness to pay may therefore reveal a weak ability to leave.</p>
+<p>This difference explains the regulatory controversy. In the United States, several authorities challenged the use of elasticity or willingness to pay when it differentiates between policyholders with comparable risk profiles for reasons unrelated to expected losses and expenses <span class="citation" data-cites="naic2015priceoptimization">[<a href="#ref-naic2015priceoptimization" role="doc-biblioref">31</a>]</span>. The customer sees only one amount. They may believe that every difference says something about their risk even when part of the price says what the company thinks it can obtain from them.</p>
+<p>Solvency and profitability must therefore be separated. Solvency concerns the capacity to meet commitments, including during a bad year. Profitability concerns the return earned by those who supplied capital or could invest it elsewhere. A portfolio may be financeable without offering the desired return. An activity that has been profitable for years may still be too fragile to withstand a catastrophe.</p>
+<p>An insurer’s withdrawal does not always mean that a contract is technically impossible to maintain. It may mean that the capital appears more rewarding in another activity or territory. Confusing the two ideas presents a required return as a purely actuarial limit. Chapter 1 showed that ownership changes where surplus goes without removing the financial constraints on the institution.</p>
+</section>
+<section id="three-uses-of-price" class="level2">
+<h2 class="anchored" data-anchor-id="three-uses-of-price">Three Uses of Price</h2>
+<p>A price increase can perform at least three different functions. It can distribute a cost, signal danger or close access to the contract. These functions often appear in the same amount, but they should not be confused.</p>
+<p>First, price distributes expected expenses. A class with more frequent or more costly claims contributes more. This may protect the balance of the portfolio and reduce the risk that lower-cost policyholders will gradually leave.</p>
+<p>Second, price can act as a signal. A higher premium can reveal exposure and encourage work, a change in use or a reduction in coverage. This function is credible only when the person understands what changed and has an accessible response. A warning that a roof needs strengthening does not have the same effect when grants, credit and contractors are available as when the household must bear an unaffordable cost alone <span class="citation" data-cites="kousky2013affordability hudson2016incentivising">[<a href="#ref-kousky2013affordability" role="doc-biblioref">32</a>, <a href="#ref-hudson2016incentivising" role="doc-biblioref">33</a>]</span>.</p>
+<p>Third, price becomes a boundary when it makes coverage impossible or empties the guarantee of value. A high deductible can leave the policy in force while returning most of the loss to the policyholder. A premium may accurately reflect expected cost and still close access to a mortgage or home. Consistency in calculation does not resolve the social problem created by the result <span class="citation" data-cites="scott1976moral">[<a href="#ref-scott1976moral" role="doc-biblioref">34</a>]</span>.</p>
+<p>These three uses clarify the idea of cross-subsidy. In insurance, the term describes a transfer through which some policyholders pay more than their expected cost so that others can pay less. It often sounds like an anomaly that finer segmentation should remove. Yet these transfers are not all just and not all unjust.</p>
+<p>A uniform premium may protect a household with limited resources or subsidise an expensive property. An artificially low price may also hide danger and encourage more construction in an exposed area. The judgement depends on who benefits, the good being protected, the visibility of the transfer and the prevention measures accompanying it <span class="citation" data-cites="kouskykunreuther2014nfipaffordability fema2018affordabilitynfip">[<a href="#ref-kouskykunreuther2014nfipaffordability" role="doc-biblioref">35</a>, <a href="#ref-fema2018affordabilitynfip" role="doc-biblioref">36</a>]</span>.</p>
+<p>Defensible pooling does not require every price to remain identical. It decides which differences will remain shared and which will alter contributions. It can cap an increase, retain broad classes, reserve information for prevention or organise equalisation among territories and insurers. Knowledge may become more individual without all of its consequences doing the same <span class="citation" data-cites="francois2021categorisation">[<a href="#ref-francois2021categorisation" role="doc-biblioref">37</a>]</span>.</p>
+<p>The motor insurance bonus-malus system provides an example of reclassification that is often easier to accept. It is a renewal rule under which claim-free experience gradually lowers a coefficient, while an at-fault claim raises it for later years <span class="citation" data-cites="whitney1918experience lemaire1995bonus">[<a href="#ref-whitney1918experience" role="doc-biblioref">38</a>, <a href="#ref-lemaire1995bonus" role="doc-biblioref">39</a>]</span>.</p>
+<p>Individual history contains information that was unavailable when the policy began. It does not establish merit on its own. An absence of accidents may reflect care, low mileage or luck. An at-fault accident does not necessarily reveal a lasting tendency to drive badly. A higher future premium can also encourage someone not to report a small claim when the expected increase exceeds the likely payment.</p>
+<p>The rule remains relatively intelligible. It is announced, its effect can be traced on the renewal notice and the coefficient changes over time <span class="citation" data-cites="servicepublicBonusMalus">[<a href="#ref-servicepublicBonusMalus" role="doc-biblioref">40</a>]</span>. This visibility does not make the system perfect. It at least allows the policyholder to understand why the price changed and how a more favourable position may be regained.</p>
+</section>
+<section id="insuring-against-reclassification" class="level2">
+<h2 class="anchored" data-anchor-id="insuring-against-reclassification">Insuring against Reclassification</h2>
+<p>Insurance protects against an uncertain event. It can also protect against the possibility of becoming a more expensive risk in the future. A healthy person may receive a diagnosis. A house may enter a newly designated flood zone. An occupation may be reclassified and old information may acquire new force when a model changes.</p>
+<p>This possibility distinguishes insurance from a simple annual purchase. The customer does not seek only the lowest price for the risk already known. They also seek continuity when their position changes. Extensive personalisation may reduce the price today while weakening protection against tomorrow’s reclassification.</p>
+<p>Chapter 2 presented the idea of insurance chosen before people know their future position. It invites us to ask which differences they would accept as grounds for pricing before knowing whether they themselves would stand on the favourable side of the classification. The argument does not require identical premiums. It prevents those whom the table currently favours from writing the rules alone <span class="citation" data-cites="dworkin1981equality dworkin2000sovereign">[<a href="#ref-dworkin1981equality" role="doc-biblioref">41</a>, <a href="#ref-dworkin2000sovereign" role="doc-biblioref">42</a>]</span>.</p>
+<p>New information does not have to become a price immediately. Law can prohibit some uses, cap differences, maintain a right to be forgotten or require continuity of cover. An institution can provide a transition when a map or model changes. Continued pooling then rests not on ignorance, but on an explicit decision.</p>
+<p>The freedom not to be confined by a group average remains important. A regularity that is true for a population does not necessarily describe each member. In the <em>Ten Oever</em> case, Advocate General Van Gerven observed that women’s longer average life expectancy could not determine the life expectancy of one particular person. Turning a group average into an individual destiny creates injustice through generalisation <span class="citation" data-cites="cjeu1993tenoever schanze2013injustice">[<a href="#ref-cjeu1993tenoever" role="doc-biblioref">43</a>, <a href="#ref-schanze2013injustice" role="doc-biblioref">44</a>]</span>.</p>
+<p>Escaping a category nevertheless has its own cost. Every insurance estimate applies information derived from other people to one person. Finer segmentation may release the individual from a stereotype while reducing the group that carries their loss. A broad class can protect and constrain. A fine classification can recognise a difference and undo solidarity <span class="citation" data-cites="krippner2023unmasked">[<a href="#ref-krippner2023unmasked" role="doc-biblioref">45</a>]</span>.</p>
+<p>The issue is therefore not a choice between the category and the individual. It is which generalisations are acceptable, what consequences they may carry and how a person can challenge their classification.</p>
+</section>
+<section id="actuarial-fairness-is-not-enough" class="level2">
+<h2 class="anchored" data-anchor-id="actuarial-fairness-is-not-enough">Actuarial Fairness Is Not Enough</h2>
+<p>Actuarial fairness has strong moral appeal. It says that each person should contribute according to the cost they bring to the portfolio. A careful driver should not finance a dangerous one without limit. A home with little exposure should not indefinitely bear the cost of one in a fire zone.</p>
+<p>The concept serves a precise professional purpose. It prevents a class from paying a price durably unrelated to the future costs attributed to it <span class="citation" data-cites="cas1988ratemaking">[<a href="#ref-cas1988ratemaking" role="doc-biblioref">18</a>]</span>. It is not a complete theory of justice. It does not determine whether the variable is legitimate, whether the person could change the exposure, whether the policy protects an essential need or whether the price remains affordable <span class="citation" data-cites="meyersvanhoyweghen2018actuarialfairness hellman2008discrimination">[<a href="#ref-meyersvanhoyweghen2018actuarialfairness" role="doc-biblioref">46</a>, <a href="#ref-hellman2008discrimination" role="doc-biblioref">47</a>]</span>.</p>
+<p>The difficulty also lies in the possessive. Speaking of a person’s risk suggests that they fully own the exposure assigned by the model. An address condenses infrastructure, planning decisions and a housing market. Driving reflects working hours, distance and the availability of public transport. Health carries the effects of work, housing, environment and access to care <span class="citation" data-cites="marmot2004status graham2007unequal">[<a href="#ref-marmot2004status" role="doc-biblioref">48</a>, <a href="#ref-graham2007unequal" role="doc-biblioref">49</a>]</span>.</p>
+<p>A variable described as behavioural does not escape this problem. Delaying a medical consultation may result from neglect. It may also reflect fear of the bill, an inability to take time off work or the absence of an accessible professional. Driving at night may be a leisure choice or part of a hospital job. Producing an unfavourable trace does not show that a reasonable alternative was available.</p>
+<p>Behavioural data may describe exposure more closely without describing responsibility more closely. Chapter 8 will examine this conversion of observed behaviour into apparent merit in more detail.</p>
+<p>Information itself does not necessarily reduce loss. It may only reveal who carries it. Information can have private value for the actor able to select and negative social value when it destroys the conditions of sharing without reducing the total number of claims <span class="citation" data-cites="hirshleifer1971">[<a href="#ref-hirshleifer1971" role="doc-biblioref">50</a>]</span>. A test, map or score then allows those regarded as favourable risks to demand a lower price, while those remaining in the pool must bear a growing share of the cost.</p>
+<p>Personalisation is especially attractive because most people hope to be recognised as good risks. In classic studies, a large majority of drivers judged themselves safer or more skilful than the median driver <span class="citation" data-cites="svenson1981drivers">[<a href="#ref-svenson1981drivers" role="doc-biblioref">51</a>]</span>. Comparative optimism also leads people to view unfavourable events as less likely for themselves than for similar others <span class="citation" data-cites="weinstein1980optimism">[<a href="#ref-weinstein1980optimism" role="doc-biblioref">52</a>]</span>. Many imagine that the model will reveal that they have been paying for everyone else. Fewer begin by imagining that it may identify them as the expensive risk.</p>
+<p>Insurance does not rely on pure ignorance. It organises a compromise among what is known, what can be prevented and what people still agree to share. Common uncertainty is itself a resource. It allows contributions to be gathered before the positions of the fortunate and unfortunate have been finally assigned <span class="citation" data-cites="cevoliniesposito2020poolprofile">[<a href="#ref-cevoliniesposito2020poolprofile" role="doc-biblioref">21</a>]</span>.</p>
+<p>A premium does not remove politics from calculation. It gives politics an amount. Classification determines which differences become differences in price. Segmentation decides how far members remain connected despite them. Greater precision can correct a stereotype, recognise an effort and protect solvency. It can also turn vulnerability into a bill, information into a boundary and a collective into a collection of profiles.</p>
+<p>The next chapter begins from the other side of classification. The insurer sees a portfolio shaped by its own acceptances, refusals and prices. The policyholder sees a personal history, practical constraints and an event that has not yet occurred. The two views do not contain the same information and do not have the same power to impose their account of risk.</p>
+
+
+</section>
+<section id="bibliography" class="level1 unnumbered">
+<h1 class="unnumbered">References</h1>
+<div id="refs" class="references csl-bib-body" role="list">
+<div id="ref-muir1957classification" class="csl-entry" role="listitem">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">Muir JM. Principles and practices in connection with classification rating systems for liability insurance as applied to private passenger automobiles. Proceedings of the Casualty Actuarial Society [Internet]. 1957;44:19–44. Available from: <a href="https://www.casact.org/sites/default/files/database/proceed_proceed57_57019.pdf">https://www.casact.org/sites/default/files/database/proceed_proceed57_57019.pdf</a></div>
+</div>
+<div id="ref-usccr1979redlining" class="csl-entry" role="listitem">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">Illinois, Indiana, Michigan, Minnesota, Ohio, and Wisconsin Advisory Committees to the U.S. Commission on Civil Rights. Insurance redlining: Fact not fiction [Internet]. Washington, DC: United States Commission on Civil Rights; 1979 Feb. Available from: <a href="https://www.usccr.gov/files/historical/1979/79-004.pdf">https://www.usccr.gov/files/historical/1979/79-004.pdf</a></div>
+</div>
+<div id="ref-ftc2007credit" class="csl-entry" role="listitem">
+<div class="csl-left-margin">3. </div><div class="csl-right-inline">Federal Trade Commission. Credit-based insurance scores: Impacts on consumers of automobile insurance: A report to congress [Internet]. Washington, DC: Federal Trade Commission; 2007 July. Available from: <a href="https://www.ftc.gov/reports/credit-based-insurance-scores-impacts-consumers-automobile-insurance-report-congress-federal-trade">https://www.ftc.gov/reports/credit-based-insurance-scores-impacts-consumers-automobile-insurance-report-congress-federal-trade</a></div>
+</div>
+<div id="ref-kiviat2019moral" class="csl-entry" role="listitem">
+<div class="csl-left-margin">4. </div><div class="csl-right-inline">Kiviat B. <a href="https://doi.org/10.1177/0003122419884917">The moral limits of predictive practices: The case of credit-based insurance scores</a>. American Sociological Review. 2019;84(6):1134–58. </div>
+</div>
+<div id="ref-desrosieres1998" class="csl-entry" role="listitem">
+<div class="csl-left-margin">5. </div><div class="csl-right-inline">Desrosières A. La politique des grands nombres : Histoire de la raison statistique. Paris: La Découverte; 2010. </div>
+</div>
+<div id="ref-krippner2024gendered" class="csl-entry" role="listitem">
+<div class="csl-left-margin">6. </div><div class="csl-right-inline">Krippner GR. <a href="https://doi.org/10.1086/732318">Gendered market devices: The persistence of gender discrimination in insurance markets</a>. American Journal of Sociology. 2024;130(3):595–643. </div>
+</div>
+<div id="ref-rothschildstiglitz1976" class="csl-entry" role="listitem">
+<div class="csl-left-margin">7. </div><div class="csl-right-inline">Rothschild M, Stiglitz J. <a href="https://doi.org/10.2307/1885326">Equilibrium in competitive insurance markets: An essay on the economics of imperfect information</a>. The Quarterly Journal of Economics. 1976;90(4):629–49. </div>
+</div>
+<div id="ref-wilson1977" class="csl-entry" role="listitem">
+<div class="csl-left-margin">8. </div><div class="csl-right-inline">Wilson C. <a href="https://doi.org/10.1016/0022-0531(77)90004-7">A model of insurance markets with incomplete information</a>. Journal of Economic Theory. 1977;16(2):167–207. </div>
+</div>
+<div id="ref-ehrlichbecker1972" class="csl-entry" role="listitem">
+<div class="csl-left-margin">9. </div><div class="csl-right-inline">Ehrlich I, Becker GS. <a href="https://doi.org/10.1086/259916">Market insurance, self-insurance, and self-protection</a>. Journal of Political Economy. 1972;80(4):623–48. </div>
+</div>
+<div id="ref-shavell1979" class="csl-entry" role="listitem">
+<div class="csl-left-margin">10. </div><div class="csl-right-inline">Shavell S. <a href="https://doi.org/10.2307/1884469">On moral hazard and insurance</a>. The Quarterly Journal of Economics. 1979;93(4):541–62. </div>
+</div>
+<div id="ref-barrycharpentier2020personalization" class="csl-entry" role="listitem">
+<div class="csl-left-margin">11. </div><div class="csl-right-inline">Barry L, Charpentier A. <a href="https://doi.org/10.1177/2053951720935143">Personalization as a promise: Can big data change the practice of insurance?</a> Big Data &amp; Society. 2020;7(1):1–12. </div>
+</div>
+<div id="ref-cumminsetal1983riskclassification" class="csl-entry" role="listitem">
+<div class="csl-left-margin">12. </div><div class="csl-right-inline">Cummins JD, Smith BD, Vance RN, VanDerhei JL. <a href="https://doi.org/10.1007/978-94-017-2911-6">Risk classification in life insurance</a>. Boston: Kluwer Academic Publishers; 1983. </div>
+</div>
+<div id="ref-abraham1986" class="csl-entry" role="listitem">
+<div class="csl-left-margin">13. </div><div class="csl-right-inline">Abraham KS. Distributing risk: Insurance, legal theory, and public policy. New Haven: Yale University Press; 1986. </div>
+</div>
+<div id="ref-beneplanc2022manuel" class="csl-entry" role="listitem">
+<div class="csl-left-margin">14. </div><div class="csl-right-inline">Bénéplanc G, Charpentier A, Thourot P. Manuel d’assurance. Paris: Presses Universitaires de France; 2022. </div>
+</div>
+<div id="ref-mcneil2015quantitative" class="csl-entry" role="listitem">
+<div class="csl-left-margin">15. </div><div class="csl-right-inline">McNeil AJ, Frey R, Embrechts P. Quantitative risk management: Concepts, techniques and tools. 2nd edn. Princeton, NJ: Princeton University Press; 2015. </div>
+</div>
+<div id="ref-reichenbach1971probability" class="csl-entry" role="listitem">
+<div class="csl-left-margin">16. </div><div class="csl-right-inline">Reichenbach H. The theory of probability: An inquiry into the logical and mathematical foundations of the calculus of probability. Berkeley: University of California Press; 1971. </div>
+</div>
+<div id="ref-schauer2003profiles" class="csl-entry" role="listitem">
+<div class="csl-left-margin">17. </div><div class="csl-right-inline">Schauer F. Profiles, probabilities, and stereotypes. Cambridge, MA: Harvard University Press; 2003. </div>
+</div>
+<div id="ref-cas1988ratemaking" class="csl-entry" role="listitem">
+<div class="csl-left-margin">18. </div><div class="csl-right-inline">Casualty Actuarial Society. Statement of principles regarding property and casualty insurance ratemaking. 1988. </div>
+</div>
+<div id="ref-norberg1979credibility" class="csl-entry" role="listitem">
+<div class="csl-left-margin">19. </div><div class="csl-right-inline">Norberg R. <a href="https://doi.org/10.1080/03461238.1979.10413725">The credibility approach to experience rating</a>. Scandinavian Actuarial Journal. 1979;(4):181–221. </div>
+</div>
+<div id="ref-dawid1982wellcalibrated" class="csl-entry" role="listitem">
+<div class="csl-left-margin">20. </div><div class="csl-right-inline">Dawid AP. <a href="https://doi.org/10.1080/01621459.1982.10477856">The well-calibrated bayesian</a>. Journal of the American Statistical Association. 1982;77(379):605–10. </div>
+</div>
+<div id="ref-cevoliniesposito2020poolprofile" class="csl-entry" role="listitem">
+<div class="csl-left-margin">21. </div><div class="csl-right-inline">Cevolini A, Esposito E. <a href="https://doi.org/10.1177/2053951720939228">From pool to profile: Social consequences of algorithmic prediction in insurance</a>. Big Data &amp; Society. 2020;7(2):1–11. </div>
+</div>
+<div id="ref-bouk2015days" class="csl-entry" role="listitem">
+<div class="csl-left-margin">22. </div><div class="csl-right-inline">Bouk D. How our days became numbered: Risk and the rise of the statistical individual. Chicago: University of Chicago Press; 2015. </div>
+</div>
+<div id="ref-cnil2008siv" class="csl-entry" role="listitem">
+<div class="csl-left-margin">23. </div><div class="csl-right-inline">Commission nationale de l’informatique et des libertés. Délibération n° 2008-001 du 10 janvier 2008 portant avis sur le projet de système d’immatriculation des véhicules. 2008. </div>
+</div>
+<div id="ref-cnil2019transparence" class="csl-entry" role="listitem">
+<div class="csl-left-margin">24. </div><div class="csl-right-inline">Commission nationale de l’informatique et des libertés. Conformité au RGPD : Comment informer les personnes et assurer la transparence ? 2019. </div>
+</div>
+<div id="ref-aaa2022correlation" class="csl-entry" role="listitem">
+<div class="csl-left-margin">25. </div><div class="csl-right-inline">American Academy of Actuaries. An actuarial view of correlation and causation: From interpretation to practice to implications. American Academy of Actuaries; 2022 July. </div>
+</div>
+<div id="ref-charpentier2026algorithmic" class="csl-entry" role="listitem">
+<div class="csl-left-margin">26. </div><div class="csl-right-inline">Charpentier A. Algorithmic ascription: Inferred identity and the governance of algorithmic discrimination. Manuscrit en révision. 2026; </div>
+</div>
+<div id="ref-woollastonwebber2016admiral" class="csl-entry" role="listitem">
+<div class="csl-left-margin">27. </div><div class="csl-right-inline">Woollaston-Webber V. <span>Admiral</span>’s <span>‘firstcarquote’</span> may breach <span>Facebook</span> policy by using profile data for quotes. Wired [Internet]. 2016 Nov 2; Available from: <a href="https://www.wired.com/story/admiral-facebook-policy/">https://www.wired.com/story/admiral-facebook-policy/</a></div>
+</div>
+<div id="ref-ruddick2016facebook" class="csl-entry" role="listitem">
+<div class="csl-left-margin">28. </div><div class="csl-right-inline">Ruddick G. <span>Facebook</span> forces <span>Admiral</span> to pull plan to price car insurance based on posts. The Guardian [Internet]. 2016 Nov 2; Available from: <a href="https://www.theguardian.com/money/2016/nov/02/facebook-admiral-car-insurance-privacy-data">https://www.theguardian.com/money/2016/nov/02/facebook-admiral-car-insurance-privacy-data</a></div>
+</div>
+<div id="ref-bugbeeetal2014priceoptimization" class="csl-entry" role="listitem">
+<div class="csl-left-margin">29. </div><div class="csl-right-inline">Bugbee M, Matthews B, Callanan S, Ewert J, Guven S, Boison L, et al. Price optimization overview. Casualty Actuarial Society; 2014. </div>
+</div>
+<div id="ref-guvenmcphail2013elasticity" class="csl-entry" role="listitem">
+<div class="csl-left-margin">30. </div><div class="csl-right-inline">Guven S, McPhail M. Beyond the cost model: Understanding price elasticity and its applications. Casualty Actuarial Society E-Forum. 2013;1–29. </div>
+</div>
+<div id="ref-naic2015priceoptimization" class="csl-entry" role="listitem">
+<div class="csl-left-margin">31. </div><div class="csl-right-inline">National Association of Insurance Commissioners. Price optimization white paper. Kansas City, MO: <span>Casualty Actuarial and Statistical (C) Task Force</span>; 2015. </div>
+</div>
+<div id="ref-kousky2013affordability" class="csl-entry" role="listitem">
+<div class="csl-left-margin">32. </div><div class="csl-right-inline">Kousky C, Kunreuther H. Addressing affordability in the national flood insurance program. Resources for the Future; 2013. Report No.: 13-02. </div>
+</div>
+<div id="ref-hudson2016incentivising" class="csl-entry" role="listitem">
+<div class="csl-left-margin">33. </div><div class="csl-right-inline">Hudson P, Botzen WJW, Feyen L, Aerts JCJH. Incentivising flood risk adaptation through risk based insurance premiums: Trade-offs between affordability and risk reduction. Ecological Economics. 2016;125:1–13. </div>
+</div>
+<div id="ref-scott1976moral" class="csl-entry" role="listitem">
+<div class="csl-left-margin">34. </div><div class="csl-right-inline">Scott JC. The moral economy of the peasant: Rebellion and subsistence in <span>Southeast Asia</span>. New Haven: Yale University Press; 1976. </div>
+</div>
+<div id="ref-kouskykunreuther2014nfipaffordability" class="csl-entry" role="listitem">
+<div class="csl-left-margin">35. </div><div class="csl-right-inline">Kousky C, Kunreuther H. <a href="https://doi.org/10.1142/S2345737614500018">Addressing affordability in the national flood insurance program</a>. Journal of Extreme Events. 2014;1(1):1450001. </div>
+</div>
+<div id="ref-fema2018affordabilitynfip" class="csl-entry" role="listitem">
+<div class="csl-left-margin">36. </div><div class="csl-right-inline">Federal Emergency Management Agency. An affordability framework for the national flood insurance program. U.S. Department of Homeland Security; 2018 Apr. </div>
+</div>
+<div id="ref-francois2021categorisation" class="csl-entry" role="listitem">
+<div class="csl-left-margin">37. </div><div class="csl-right-inline">François P. Catégorisation, individualisation. Retour sur les scores de crédit. 2021. </div>
+</div>
+<div id="ref-whitney1918experience" class="csl-entry" role="listitem">
+<div class="csl-left-margin">38. </div><div class="csl-right-inline">Whitney AW. The theory of experience rating. Proceedings of the Casualty Actuarial Society. 1918;4:274–92. </div>
+</div>
+<div id="ref-lemaire1995bonus" class="csl-entry" role="listitem">
+<div class="csl-left-margin">39. </div><div class="csl-right-inline">Lemaire J. Bonus-malus systems in automobile insurance. Boston: Kluwer Academic Publishers; 1995. </div>
+</div>
+<div id="ref-servicepublicBonusMalus" class="csl-entry" role="listitem">
+<div class="csl-left-margin">40. </div><div class="csl-right-inline">Direction de l’information légale et administrative. Bonus-malus dans l’assurance automobile [Internet]. Service-Public.fr; 2026. Available from: <a href="https://www.service-public.gouv.fr/particuliers/vosdroits/F2655">https://www.service-public.gouv.fr/particuliers/vosdroits/F2655</a></div>
+</div>
+<div id="ref-dworkin1981equality" class="csl-entry" role="listitem">
+<div class="csl-left-margin">41. </div><div class="csl-right-inline">Dworkin R. What is equality? Part 2: Equality of resources. Philosophy &amp; Public Affairs. 1981;10(4):283–345. </div>
+</div>
+<div id="ref-dworkin2000sovereign" class="csl-entry" role="listitem">
+<div class="csl-left-margin">42. </div><div class="csl-right-inline">Dworkin R. Sovereign virtue: The theory and practice of equality. Cambridge, MA: Harvard University Press; 2000. </div>
+</div>
+<div id="ref-cjeu1993tenoever" class="csl-entry" role="listitem">
+<div class="csl-left-margin">43. </div><div class="csl-right-inline">Cour de justice des Communautés européennes. Gerardus cornelis ten oever contre stichting bedrijfspensioenfonds voor het glazenwassers- en schoonmaakbedrijf. 1993. </div>
+</div>
+<div id="ref-schanze2013injustice" class="csl-entry" role="listitem">
+<div class="csl-left-margin">44. </div><div class="csl-right-inline">Schanze E. <a href="https://doi.org/10.1017/S2071832200001863">Injustice by generalization: Notes on the <span>Test-Achats</span> decision of the <span>European</span> court of justice</a>. German Law Journal. 2013;14(2):423–33. </div>
+</div>
+<div id="ref-krippner2023unmasked" class="csl-entry" role="listitem">
+<div class="csl-left-margin">45. </div><div class="csl-right-inline">Krippner GR. <a href="https://doi.org/10.1177/07352751231169012">Unmasked: A history of the individualization of risk</a>. Sociological Theory. 2023;41(2):83–104. </div>
+</div>
+<div id="ref-meyersvanhoyweghen2018actuarialfairness" class="csl-entry" role="listitem">
+<div class="csl-left-margin">46. </div><div class="csl-right-inline">Meyers G, Van Hoyweghen I. <a href="https://doi.org/10.1080/09505431.2017.1398223">Enacting actuarial fairness in insurance: From fair discrimination to behaviour-based fairness</a>. Science as Culture. 2018;27(4):413–38. </div>
+</div>
+<div id="ref-hellman2008discrimination" class="csl-entry" role="listitem">
+<div class="csl-left-margin">47. </div><div class="csl-right-inline">Hellman D. When is discrimination wrong? Cambridge, MA: Harvard University Press; 2008. </div>
+</div>
+<div id="ref-marmot2004status" class="csl-entry" role="listitem">
+<div class="csl-left-margin">48. </div><div class="csl-right-inline">Marmot M. Status syndrome: How your social standing directly affects your health and life expectancy. London: Bloomsbury; 2004. </div>
+</div>
+<div id="ref-graham2007unequal" class="csl-entry" role="listitem">
+<div class="csl-left-margin">49. </div><div class="csl-right-inline">Graham H. Unequal lives: Health and socio-economic inequalities. Maidenhead: Open University Press; 2007. </div>
+</div>
+<div id="ref-hirshleifer1971" class="csl-entry" role="listitem">
+<div class="csl-left-margin">50. </div><div class="csl-right-inline">Hirshleifer J. The private and social value of information and the reward to inventive activity. The American Economic Review. 1971;61(4):561–74. </div>
+</div>
+<div id="ref-svenson1981drivers" class="csl-entry" role="listitem">
+<div class="csl-left-margin">51. </div><div class="csl-right-inline">Svenson O. <a href="https://doi.org/10.1016/0001-6918(81)90005-6">Are we all less risky and more skillful than our fellow drivers?</a> Acta Psychologica. 1981;47(2):143–8. </div>
+</div>
+<div id="ref-weinstein1980optimism" class="csl-entry" role="listitem">
+<div class="csl-left-margin">52. </div><div class="csl-right-inline">Weinstein ND. <a href="https://doi.org/10.1037/0022-3514.39.5.806">Unrealistic optimism about future life events</a>. Journal of Personality and Social Psychology. 1980;39(5):806–20. </div>
+</div>
+</div>
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p><em>Claims experience</em> refers to the frequency and cost of claims observed within a portfolio or category of policies.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p><em>Actuarial credibility</em> measures how much confidence can be placed in the experience of a particular group or policyholder. When observations are scarce, that experience is combined with evidence from a wider group so that an accidental result does not determine the price on its own.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>The <em>technical premium</em> is the estimated amount needed to finance expected claims and the expenses directly linked to coverage. The amount paid by the policyholder may also include other expenses, taxes and commercial adjustments.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/freakonometrics\.github\.io\/risk-priced-society\/en\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../chapters/chapter-05.html" class="pagination-link" aria-label="Chapter 5 — Trusting the One Who Will Pay">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Chapter 5 — Trusting the One Who Will Pay</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../chapters/chapter-07.html" class="pagination-link" aria-label="Chapter 7 — What Each Side Cannot See">
+        <span class="nav-page-text"><span class="chapter-title">Chapter 7 — What Each Side Cannot See</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/freakonometrics/risk-priced-society/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
