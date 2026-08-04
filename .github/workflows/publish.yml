@@ -1,4 +1,4 @@
-name: Publish Quarto site
+run: ./scripts/build-all-review.shname: Publish Quarto site
 
 on:
   workflow_dispatch:
@@ -17,7 +17,7 @@ jobs:
         with:
           tinytex: true
       - name: Build site
-        run: ./scripts/build-all.sh
+        run: ./scripts/build-all-review.sh
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
