@@ -1,0 +1,5 @@
+comments:
+  hypothesis:
+    theme: clean
+    openSidebar: false
+    showHighlights: whenSidebarOpen

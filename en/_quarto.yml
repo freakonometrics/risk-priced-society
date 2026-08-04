@@ -1,17 +1,62 @@
 project:
-  type: website
-  output-dir: _site
+  type: book
+  output-dir: _book
 
-lang: en
+lang: en-GB
 
-website:
+book:
   title: "Risk-Priced Society"
+  subtitle: "Insurance, Algorithms, and Climate in the Age of Prediction"
+  author: "Arthur Charpentier"
+  date: "2026-08-04"
+  cover-image: images/cover-en.png
+  site-url: "https://freakonometrics.github.io/risk-priced-society/en/"
+  repo-url: "https://github.com/freakonometrics/risk-priced-society"
+  repo-actions: [issue]
+  page-navigation: true
+  search: true
   navbar:
     right:
+      - text: "Open review"
+        href: open-review.qmd
       - text: "Français"
         href: ../fr/index.html
+  chapters:
+    - index.qmd
+    - open-review.qmd
+    - part: "The book"
+      chapters:
+        - chapters/prologue.md
+        - chapters/introduction.md
+        - chapters/chapter-01.md
+        - chapters/chapter-02.md
+        - chapters/chapter-03.md
+        - chapters/chapter-04.md
+        - chapters/chapter-05.md
+        - chapters/chapter-06.md
+        - chapters/chapter-07.md
+        - chapters/chapter-08.md
+        - chapters/chapter-09.md
+        - chapters/chapter-10.md
+        - chapters/chapter-11.md
+        - chapters/chapter-12.md
+        - chapters/chapter-13.md
+        - chapters/conclusion.md
+    - credits.qmd
+    - about-author.md
+
+bibliography: bibliography/references-en.bib
+csl: bibliography/numeric-brackets.csl
+link-citations: true
+reference-section-title: "References"
 
 format:
   html:
     theme: cosmo
-    css: ../shared/styles/site.css
+    toc: true
+    toc-depth: 2
+    toc-title: "On this page"
+    number-sections: false
+    css:
+      - styles/boxes.css
+      - styles/site.css

@@ -4,7 +4,6 @@ page-layout: full
 toc: false
 ---
 
-::: {.language-landing}
 # Un livre, deux éditions
 
 ## Français
@@ -17,7 +16,6 @@ toc: false
 ## English
 
 **Risk-Priced Society**  
-*Insurance, Algorithms and Climate in the Age of Prediction*
+*Insurance, Algorithms, and Climate in the Age of Prediction*
 
-[English edition coming soon](en/index.html){.btn .btn-secondary}
-:::
+[Read the English edition](en/index.html){.btn .btn-secondary}

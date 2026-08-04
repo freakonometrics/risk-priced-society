@@ -1,21 +1,20 @@
 ---
 title: "Risk-Priced Society"
-subtitle: "Insurance, Algorithms and Climate in the Age of Prediction"
-lang: en
+subtitle: "Insurance, Algorithms, and Climate in the Age of Prediction"
+author: "Arthur Charpentier"
+date: "2026-08-04"
 comments: false
 page-layout: full
+toc: false
 ---
 
-::: {.book-home}
-::: {.book-cover}
-![](../shared/images/cover-fr.png){fig-alt="Provisional cover of Risk-Priced Society"}
-:::
+## Open-review edition
 
-::: {.book-intro}
-## English edition coming soon
+Insurance rests on a collective promise: resources are brought together so that no one is left alone with risk. Finer data, more opaque predictive models, and climate risks that are increasingly difficult to pool are placing that promise under strain.
 
-The French open-review edition is already being prepared. The English manuscript will be added here without changing the French site or its stable chapter URLs.
+*Risk-Priced Society* examines what prices, scores, and risk categories do to institutions of solidarity. Returning to the basic principles of insurance, it argues that debates presented as technical also involve political choices about what we are prepared to share.
 
-[Lire l’édition française](../fr/index.html){.btn .btn-primary}
-:::
-:::
+[Start reading](chapters/prologue.md){.btn .btn-primary}
+[Download the current PDF](downloads/risk-priced-society.pdf){.btn .btn-secondary}
+
+**Open review: 15 August–15 December 2026.** Readers may comment on individual passages using the annotation tool displayed in the margin.
