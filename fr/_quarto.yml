@@ -23,6 +23,9 @@ book:
         href: open-review.qmd
       - text: "English"
         href: ../en/index.html
+     - icon: file-pdf
+       href: downloads/la-societe-au-prix-du-risque.pdf
+       aria-label: Télécharger le PDF
   chapters:
     - index.qmd
     - open-review.qmd

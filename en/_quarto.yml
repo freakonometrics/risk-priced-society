@@ -21,6 +21,9 @@ book:
         href: open-review.qmd
       - text: "Français"
         href: ../fr/index.html
+      - icon: file-pdf
+        href: downloads/risk-priced-society.pdf
+        aria-label: Download the PDF
   chapters:
     - index.qmd
     - open-review.qmd
