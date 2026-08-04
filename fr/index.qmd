@@ -7,9 +7,6 @@ page-layout: full
 ---
 
 ::: {.book-home}
-::: {.book-cover}
-![](images/cover-fr.png){fig-alt="Couverture de La société au prix du risque"}
-:::
 
 ::: {.book-intro}
 **Édition ouverte du manuscrit**
