@@ -4,13 +4,10 @@ page-layout: full
 toc: false
 ---
 
-<<<<<<< HEAD
-=======
 :::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6}
 
->>>>>>> deacc6a (Add bilingual summaries to landing page)
 ## Français
 
 ### **La société au prix du risque**
