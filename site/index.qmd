@@ -4,8 +4,6 @@ page-layout: full
 toc: false
 ---
 
-# Un livre, deux éditions
-
 ## Français
 
 **La société au prix du risque**  
