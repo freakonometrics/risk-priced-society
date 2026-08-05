@@ -4,16 +4,45 @@ page-layout: full
 toc: false
 ---
 
+<<<<<<< HEAD
+=======
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+
+>>>>>>> deacc6a (Add bilingual summaries to landing page)
 ## Français
 
-**La société au prix du risque**  
+### **La société au prix du risque**
+
 *Assurance, algorithmes et climat à l’âge de la prédiction*
+
+À mesure que les données deviennent plus fines et les modèles plus puissants, l’assurance peut mieux distinguer les personnes, les comportements et les territoires. Mais mieux prévoir ne dit pas encore comment répartir les pertes, quelles différences doivent être tarifées, ni ce qui doit rester mutualisé.
+
+En partant de l’histoire de l’assurance, des pratiques actuarielles, des algorithmes de décision et des risques climatiques, ce livre montre que la précision technique ne supprime jamais les choix politiques. Elle peut soutenir la prévention et renforcer la protection, mais aussi individualiser des vulnérabilités produites collectivement.
+
+L’enjeu n’est donc pas de renoncer aux modèles, mais de décider ce qu’ils peuvent faire, quelles conséquences leur attacher et comment éviter que chacun ne soit laissé seul avec son risque.
 
 [Lire l’édition française](fr/index.html){.btn .btn-primary}
 
+:::
+
+::: {.g-col-12 .g-col-md-6}
+
 ## English
 
-**Risk-Priced Society**  
+### **Risk-Priced Society**
+
 *Insurance, Algorithms, and Climate in the Age of Prediction*
 
+As data become more granular and models more powerful, insurance can distinguish more precisely between individuals, behaviours, and places. Yet better prediction does not determine how losses should be shared, which differences should affect prices, or what should remain pooled.
+
+Drawing on the history of insurance, actuarial practice, algorithmic decision-making, and climate risk, this book shows that technical precision never eliminates political choices. It can support prevention and strengthen protection, but it can also individualize vulnerabilities that are collectively produced.
+
+The challenge is therefore not to reject models, but to decide what they should be allowed to do, which consequences should follow from their outputs, and how to avoid leaving each person alone with their risk.
+
 [Read the English edition](en/index.html){.btn .btn-secondary}
+
+:::
+
+::::
