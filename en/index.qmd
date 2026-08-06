@@ -16,5 +16,8 @@ Insurance rests on a collective promise: resources are brought together so that 
 
 [Start reading](chapters/prologue.md){.btn .btn-primary}
 [Download the current PDF](downloads/risk-priced-society.pdf){.btn .btn-secondary}
+[Download PDF](downloads/risk-priced-society.pdf){.btn .btn-outline-primary}
+[Download EPUB](downloads/risk-priced-society.epub){.btn .btn-outline-primary}
+[Download MOBI](downloads/risk-priced-society.mobi){.btn .btn-outline-primary}
 
 **Open review: 15 August–15 December 2026.** Readers may comment on individual passages using the annotation tool displayed in the margin.

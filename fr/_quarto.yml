@@ -26,6 +26,12 @@ book:
       - icon: file-pdf
         href: downloads/la-societe-au-prix-du-risque.pdf
         aria-label: Télécharger le PDF
+      - icon: book
+        href: downloads/la-societe-au-prix-du-risque.epub
+        aria-label: Télécharger l’EPUB
+      - icon: tablet
+        href: downloads/la-societe-au-prix-du-risque.mobi
+        aria-label: Télécharger le MOBI
   chapters:
     - index.qmd
     - open-review.qmd

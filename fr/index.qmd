@@ -16,5 +16,7 @@ L’assurance repose sur une promesse collective : mettre en commun des ressourc
 
 [Commencer la lecture](chapters/prologue.md){.btn .btn-primary}
 [Télécharger le PDF](downloads/la-societe-au-prix-du-risque.pdf){.btn .btn-secondary}
+[Télécharger l’EPUB](downloads/la-societe-au-prix-du-risque.epub){.btn .btn-outline-primary}
+[Télécharger le MOBI](downloads/la-societe-au-prix-du-risque.mobi){.btn .btn-outline-primary}
 
 **Open review : du 15 août au 15 décembre 2026.** Les lecteurs peuvent commenter individuellement les passages du manuscrit grâce à l’outil d’annotation affiché dans la marge.
